@@ -6,10 +6,17 @@ Minimal prototype: zap between live internet radio streams, play snippets, trans
 
 ```powershell
 pip install -r requirements.txt   # FFmpeg must also be in PATH (see Requirements)
-python oracle.py
+python oracle.py                        # all stations
+python oracle.py --lang fr,en           # only French + English
+python oracle.py --category news,talk   # only news + talk
+python oracle.py --lang fr --list       # list matches, don't play
 ```
 
 Stop with Ctrl+C.
+
+Stations carry a `lang` (ISO 639-1) and `category` (news, music, talk,
+classical, ambient). Filter with `--lang` / `--category` (comma-separated,
+both default to all). Edit `STATIONS` in `stations.py` to add your own.
 
 ## Requirements
 
@@ -27,7 +34,9 @@ Stop with Ctrl+C.
 
 ## Radio streams
 
-10 public live stations built in (BBC, NHK, Radio Paradise, etc). Edit `STATIONS` in `oracle.py` to customize.
+20 public live stations in 5 languages (en, fr, de, ja, es) across news,
+music, talk, classical, and ambient. Edit `STATIONS` in `stations.py` to
+customize. Some URLs may rot over time — swap them as needed.
 
 ## Architecture
 

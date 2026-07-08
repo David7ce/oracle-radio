@@ -5,6 +5,7 @@ Zap between live radio streams, capture fragments, transcribe in parallel.
 """
 
 import sys
+import argparse
 import random
 import shutil
 import subprocess
@@ -14,7 +15,7 @@ from pathlib import Path
 from threading import Thread
 from queue import Queue, Empty
 
-from stations import STATIONS
+from stations import select, languages, categories
 
 # Force UTF-8 output on Windows
 if sys.platform == "win32":
@@ -62,7 +63,27 @@ def require_tools(*tools):
     if missing:
         sys.exit(f"Missing from PATH: {', '.join(missing)}. See README Requirements.")
 
+def parse_args():
+    p = argparse.ArgumentParser(description="Oracle Radio — zap live radio streams.")
+    p.add_argument("--lang", help=f"comma-separated langs, default all. available: {','.join(languages())}")
+    p.add_argument("--category", help=f"comma-separated categories, default all. available: {','.join(categories())}")
+    p.add_argument("--list", action="store_true", help="list matching stations and exit")
+    return p.parse_args()
+
+def csv(value):
+    return [x.strip() for x in value.split(",")] if value else None
+
 def main():
+    args = parse_args()
+    stations = select(csv(args.lang), csv(args.category))
+    if not stations:
+        sys.exit("No stations match. See --lang / --category options with -h.")
+
+    if args.list:
+        for s in stations:
+            print(f"[{s['lang']}/{s['category']}] {s['name']}")
+        return
+
     require_tools("ffmpeg", "ffplay", "whisper")
 
     print("🎙️  ORACLE RADIO v0.1 alpha")
@@ -77,10 +98,10 @@ def main():
 
     try:
         while True:
-            # Pick a station, never the same one twice in a row
-            station_name, stream_url = random.choice(
-                [s for s in STATIONS if s[0] != last_station]
-            )
+            # Pick a station, avoid immediate repeat (unless only one matches)
+            pool = [s for s in stations if s["name"] != last_station] or stations
+            station = random.choice(pool)
+            station_name, stream_url = station["name"], station["url"]
             last_station = station_name
 
             duration = random.randint(2, 5)
