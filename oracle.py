@@ -6,6 +6,7 @@ Zap between live radio streams, capture fragments, transcribe in parallel.
 
 import sys
 import random
+import shutil
 import subprocess
 import tempfile
 import time
@@ -13,22 +14,11 @@ from pathlib import Path
 from threading import Thread
 from queue import Queue, Empty
 
+from stations import STATIONS
+
 # Force UTF-8 output on Windows
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
-
-STATIONS = [
-    ("BBC World Service", "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws_open_icy"),
-    ("NHK World", "https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8"),
-    ("Radio Paradise", "https://stream.radioparadise.com/mp3-128"),
-    ("WFMU 91.1 FM", "http://stream.wfmu.org/freeform"),
-    ("SOMA FM Ambient", "https://somafm.com/ambient.pls"),
-    ("JazzRadio 24/7", "http://stream.jazzradio.com/"),
-    ("France Info", "https://stream.radiofrance.fr/franceinfo/franceinfo.m3u8"),
-    ("Radio Classique", "https://stream.radiofrance.fr/radioclassique/radioclassique.m3u8"),
-    ("Pitchfork Advanced", "http://somafm.com/pithf.pls"),
-    ("Secret Agent", "http://somafm.com/secretagent130.m3u8"),
-]
 
 def capture_and_play(stream_url, clip_file, duration):
     """Capture audio from stream and play it."""
@@ -66,7 +56,15 @@ def transcribe_clip(clip_file, station_name, queue):
     except Exception:
         pass
 
+def require_tools(*tools):
+    """Fail fast with a clear message if any external tool is missing from PATH."""
+    missing = [t for t in tools if shutil.which(t) is None]
+    if missing:
+        sys.exit(f"Missing from PATH: {', '.join(missing)}. See README Requirements.")
+
 def main():
+    require_tools("ffmpeg", "ffplay", "whisper")
+
     print("🎙️  ORACLE RADIO v0.1 alpha")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print()
@@ -80,10 +78,9 @@ def main():
     try:
         while True:
             # Pick a station, never the same one twice in a row
-            while True:
-                station_name, stream_url = random.choice(STATIONS)
-                if station_name != last_station:
-                    break
+            station_name, stream_url = random.choice(
+                [s for s in STATIONS if s[0] != last_station]
+            )
             last_station = station_name
 
             duration = random.randint(2, 5)
