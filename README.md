@@ -5,7 +5,7 @@ Minimal prototype: zap between live internet radio streams, play snippets, trans
 ## Run
 
 ```powershell
-cd cli\oracle-radio
+pip install -r requirements.txt   # FFmpeg must also be in PATH (see Requirements)
 python oracle.py
 ```
 

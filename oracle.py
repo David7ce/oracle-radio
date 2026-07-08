@@ -4,7 +4,6 @@ Oracle Radio v0.1 alpha
 Zap between live radio streams, capture fragments, transcribe in parallel.
 """
 
-import os
 import sys
 import random
 import subprocess
@@ -39,7 +38,7 @@ def capture_and_play(stream_url, clip_file, duration):
              "-f", "wav", "-acodec", "pcm_s16le", "-y", clip_file],
             capture_output=True, timeout=duration + 5
         )
-        if os.path.exists(clip_file):
+        if Path(clip_file).exists():
             subprocess.run(
                 ["ffplay", "-nodisp", "-autoexit", "-t", str(duration), clip_file],
                 capture_output=True, timeout=duration + 2
@@ -50,7 +49,7 @@ def capture_and_play(stream_url, clip_file, duration):
 def transcribe_clip(clip_file, station_name, queue):
     """Transcribe clip in background thread."""
     try:
-        result = subprocess.run(
+        subprocess.run(
             ["whisper", clip_file, "--output_format", "txt",
              "--output_dir", str(Path(clip_file).parent), "--model", "tiny"],
             capture_output=True, timeout=120
@@ -64,7 +63,7 @@ def transcribe_clip(clip_file, station_name, queue):
             txt_file.unlink()
 
         Path(clip_file).unlink(missing_ok=True)
-    except Exception as e:
+    except Exception:
         pass
 
 def main():
