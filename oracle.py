@@ -79,23 +79,18 @@ def main():
 
     try:
         while True:
-            # Pick random station (avoid immediate repeat)
+            # Pick a station, never the same one twice in a row
             while True:
                 station_name, stream_url = random.choice(STATIONS)
                 if station_name != last_station:
                     break
             last_station = station_name
 
-            # Random duration 2-5 seconds
             duration = random.randint(2, 5)
-
             print(f"● LIVE — {station_name} ({duration}s)")
 
-            # Capture and play
             clip_file = str(tmpdir / f"clip-{int(time.time() * 1e6)}.wav")
             capture_and_play(stream_url, clip_file, duration)
-
-            # Transcribe in parallel
             Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue), daemon=True).start()
 
             print()
