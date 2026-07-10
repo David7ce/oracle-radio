@@ -19,16 +19,16 @@ CACHE = Path(__file__).with_name("stations.json")
 
 # ISO 639-1 code -> (radio-browser language name, display label)
 LANGS = {
-    "en": ("english", "English"),
-    "fr": ("french", "Français"),
+    "ar": ("arabic", "العربية"),
     "de": ("german", "Deutsch"),
-    "ja": ("japanese", "日本語"),
+    "en": ("english", "English"),
     "es": ("spanish", "Español"),
+    "fr": ("french", "Français"),
+    "ja": ("japanese", "日本語"),
+    "it": ("italian", "Italiano"),
+    "pt": ("portuguese", "Português"),
     "ru": ("russian", "Русский"),
     "zh": ("chinese", "中文"),
-    "pt": ("portuguese", "Português"),
-    "it": ("italian", "Italiano"),
-    "ar": ("arabic", "العربية"),
 }
 
 # radio-browser mirror. If it's unreachable we use SEED.
@@ -52,12 +52,11 @@ def languages():
     return list(LANGS)
 
 
-def fetch(lang, limit=25, category=None):
+def fetch(lang, limit=25):
     """Live stations for one ISO 639-1 lang from radio-browser, MP3/AAC only.
 
     Falls back to SEED (filtered by lang) on any network/parse error so the app
-    never hard-fails offline. `category`, if given, keeps only stations tagged
-    with that substring.
+    never hard-fails offline. Category filtering is done by load(), not here.
     """
     rb_name = LANGS.get(lang, (lang, lang))[0]
     q = urllib.parse.urlencode({
@@ -82,25 +81,32 @@ def fetch(lang, limit=25, category=None):
         tags = s.get("tags", "")
         if not stream or codec not in ("MP3", "AAC", "AAC+") or not name:
             continue
-        if category and category.lower() not in tags.lower():
-            continue
         if stream in seen:
             continue
         seen.add(stream)
-        out.append({"name": name, "url": stream, "lang": lang,
+        out.append({"name": name, "url": stream, "lang": lang, "tags": tags,
                     "category": tags.split(",")[0] if tags else "radio"})
         if len(out) >= limit:
             break
     return out or [s for s in SEED if s["lang"] == lang] or list(SEED)
 
 
-CACHE_VERSION = 1
+CACHE_VERSION = 2
 STALE_DAYS = 30
 
 
 def _slim(stations):
-    """Cache form: drop the redundant `lang` (it's the dict key)."""
-    return [{"name": s["name"], "url": s["url"], "category": s["category"]} for s in stations]
+    """Cache form: drop redundant `lang` (dict key) and `category` (derived from tags)."""
+    return [{"name": s["name"], "url": s["url"], "tags": s.get("tags", "")} for s in stations]
+
+
+def _match(station, category):
+    """True if any comma-separated term in `category` is a substring of the
+    station's tags (case-insensitive). Empty category matches everything."""
+    if not category:
+        return True
+    hay = (station.get("tags") or station.get("category") or "").lower()
+    return any(t.strip() and t.strip() in hay for t in category.lower().split(","))
 
 
 def _write(data):
@@ -139,14 +145,14 @@ def load(lang, category=None):
               file=sys.stderr)
     slim = data.get(lang)
     if slim:
-        st = [{**s, "lang": lang} for s in slim]   # re-attach lang for callers
+        st = slim
     else:
-        st = fetch(lang, category=category)
-        data[lang] = _slim(st)
+        st = _slim(fetch(lang))
+        data[lang] = st
         _write(data)
-    if category:
-        st = [s for s in st if category.lower() in s.get("category", "").lower()] or st
-    return st
+    # Re-attach lang + a display category (first tag) that callers expect.
+    st = [{**s, "lang": lang, "category": (s.get("tags") or "").split(",")[0] or "radio"} for s in st]
+    return [s for s in st if _match(s, category)]
 
 
 if __name__ == "__main__":
