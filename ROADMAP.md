@@ -5,20 +5,16 @@ and committed (`209f6fe`). Remaining work below.
 
 ## Now (blocking correctness)
 
-- [ ] **Fix broken stream URLs in `stations.py`**
-  - [ ] SomaFM: `.pls` playlists don't work with ffmpeg — swap to direct ICE:
-    - `https://ice.somafm.com/groovesalad-128-mp3`
-    - `https://ice.somafm.com/dronezone-128-mp3`
-    - `https://ice.somafm.com/indiepop-128-mp3`
-    - `https://ice.somafm.com/defcon-256-mp3`
-    - `https://ice.somafm.com/secretagent-128-mp3`
-    - `https://ice.somafm.com/u80s-128-mp3`
-  - [ ] `Pitchfork Advanced` — ICE mount name wrong; find real channel or drop
-  - [ ] German (Deutschlandfunk, DLF Nova) — both URLs fail, replace
-  - [ ] Spanish news — RNE geo-blocked; find open stream (headline use case)
-- [ ] **Wire `--language` into Whisper** — pass station `lang` to
-  `transcribe_clip` → `whisper --language <code>` so transcription stops
-  auto-detecting (more accurate, faster).
+- [x] **Fix broken stream URLs in `stations.py`**
+  - [x] SomaFM: `.pls` → direct ICE mounts (verified 206). Also NHK mislabeled
+        `ja` → `en` (mount is the English service, drives Whisper lang now).
+  - [x] `Pitchfork Advanced` (dead mount) → replaced with SomaFM Underground 80s.
+  - [x] German (Deutschlandfunk, DLF Nova) — kept; 302-redirects to a signed CDN
+        URL, ffmpeg follows redirects so they work. Roadmap note was stale.
+  - [ ] Spanish news — RNE still dead (`000`, geo/DNS). No open replacement found;
+        leave in list or drop later.
+- [x] **Wire `--language` into Whisper** — `transcribe_clip(..., lang)` passes
+  `--language <code>` from the station's `lang` field.
 
 ## Verified working (keep)
 
@@ -26,10 +22,13 @@ and committed (`209f6fe`). Remaining work below.
 
 ## Next (usability)
 
-- [ ] Interactive picker when no `--lang`/`--category` given (prompt with
-      available options) — accept aliases like "español" → `es`.
-- [ ] Prune/health-check stations at startup, skip dead ones.
-- [ ] Show a legend line: current filter + station count.
+- [x] One language per session (rule 1): `--lang` single-choice + interactive
+      numbered picker when omitted.
+- [x] Many more stations, incl. ru/zh/pt/it/ar — pulled live (~25/lang) from
+      radio-browser.org API instead of a hardcoded list. `hidebroken=true`
+      already skips dead streams, so no separate health-check needed.
+- [ ] Show a legend line: current language + station count.
+- [ ] Accept aliases in picker like "español" → `es`.
 
 ## Later (nice to have)
 

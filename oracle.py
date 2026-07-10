@@ -15,7 +15,7 @@ from pathlib import Path
 from threading import Thread
 from queue import Queue, Empty
 
-from stations import select, languages, categories
+from stations import load, refresh, languages, LANGS
 
 # Force UTF-8 output on Windows
 if sys.platform == "win32":
@@ -37,12 +37,14 @@ def capture_and_play(stream_url, clip_file, duration):
     except Exception as e:
         print(f"   (capture failed: {e})")
 
-def transcribe_clip(clip_file, station_name, queue):
+def transcribe_clip(clip_file, station_name, queue, lang=None):
     """Transcribe clip in background thread."""
     try:
+        # Passing the station's known language skips Whisper's auto-detect: faster + more accurate.
+        lang_arg = ["--language", lang] if lang else []
         subprocess.run(
             ["whisper", clip_file, "--output_format", "txt",
-             "--output_dir", str(Path(clip_file).parent), "--model", "tiny"],
+             "--output_dir", str(Path(clip_file).parent), "--model", "tiny", *lang_arg],
             capture_output=True, timeout=120
         )
 
@@ -64,20 +66,43 @@ def require_tools(*tools):
         sys.exit(f"Missing from PATH: {', '.join(missing)}. See README Requirements.")
 
 def parse_args():
-    p = argparse.ArgumentParser(description="Oracle Radio — zap live radio streams.")
-    p.add_argument("--lang", help=f"comma-separated langs, default all. available: {','.join(languages())}")
-    p.add_argument("--category", help=f"comma-separated categories, default all. available: {','.join(categories())}")
-    p.add_argument("--list", action="store_true", help="list matching stations and exit")
+    p = argparse.ArgumentParser(description="Oracle Radio — zap live radio streams (one language per session).")
+    p.add_argument("--lang", choices=languages(), help=f"single language. available: {', '.join(languages())}")
+    p.add_argument("--category", help="optional tag filter (substring, e.g. news, jazz)")
+    p.add_argument("--list", action="store_true", help="list stations for the chosen language and exit")
+    p.add_argument("--log", metavar="FILE", help="append transcripts to FILE as they arrive")
+    p.add_argument("--refresh", action="store_true", help="rebuild local station cache from the API and exit")
     return p.parse_args()
 
-def csv(value):
-    return [x.strip() for x in value.split(",")] if value else None
+def pick_language():
+    """Interactive numbered picker when --lang is not given (rule 1: one lang)."""
+    codes = languages()
+    print("Choose a language:")
+    for i, code in enumerate(codes, 1):
+        print(f"  {i}. {LANGS[code][1]} ({code})")
+    while True:
+        choice = input("> ").strip().lower()
+        if choice in codes:
+            return choice
+        if choice.isdigit() and 1 <= int(choice) <= len(codes):
+            return codes[int(choice) - 1]
+        print(f"Pick 1-{len(codes)} or a code ({', '.join(codes)}).")
 
 def main():
     args = parse_args()
-    stations = select(csv(args.lang), csv(args.category))
+
+    if args.refresh:
+        print("Rebuilding station cache from radio-browser.org…")
+        for code, n in refresh().items():
+            print(f"  {code}: {n} stations")
+        return
+
+    lang = args.lang or pick_language()
+
+    print(f"Loading {LANGS[lang][1]} stations…")
+    stations = load(lang, category=args.category)
     if not stations:
-        sys.exit("No stations match. See --lang / --category options with -h.")
+        sys.exit(f"No stations for {lang}" + (f" / {args.category}" if args.category else "") + ".")
 
     if args.list:
         for s in stations:
@@ -93,35 +118,52 @@ def main():
     tmpdir = Path(tempfile.gettempdir()) / "oracle-radio"
     tmpdir.mkdir(exist_ok=True)
 
-    last_station = None
     transcript_queue = Queue()
+    logf = open(args.log, "a", encoding="utf-8") if args.log else None
+
+    # Shuffled deck: every station plays once before any repeats (fixes clustering
+    # you get from independent random.choice picks).
+    deck = []
+    last_name = None
+
+    def next_station():
+        nonlocal deck
+        if not deck:
+            deck = random.sample(stations, len(stations))
+            # Avoid an immediate repeat across the reshuffle boundary.
+            if len(stations) > 1 and deck[-1]["name"] == last_name:
+                deck.insert(0, deck.pop())
+        return deck.pop()
 
     try:
         while True:
-            # Pick a station, avoid immediate repeat (unless only one matches)
-            pool = [s for s in stations if s["name"] != last_station] or stations
-            station = random.choice(pool)
-            station_name, stream_url = station["name"], station["url"]
-            last_station = station_name
+            station = next_station()
+            station_name, stream_url, lang = station["name"], station["url"], station["lang"]
+            last_name = station_name
 
             duration = random.randint(2, 5)
             print(f"● LIVE — {station_name} ({duration}s)")
 
             clip_file = str(tmpdir / f"clip-{int(time.time() * 1e6)}.wav")
             capture_and_play(stream_url, clip_file, duration)
-            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue), daemon=True).start()
+            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue, lang), daemon=True).start()
 
             print()
 
             # Drain any transcripts that finished (whisper lags ~10-30s behind)
             while True:
                 try:
-                    station, transcript = transcript_queue.get_nowait()
+                    st_name, transcript = transcript_queue.get_nowait()
                 except Empty:
                     break
-                print(f'   ↳ [{station}] "{transcript}"\n')
+                print(f'   ↳ [{st_name}] "{transcript}"\n')
+                if logf:
+                    logf.write(f'[{time.strftime("%H:%M:%S")}] [{st_name}] {transcript}\n')
+                    logf.flush()   # ponytail: flush per line so the log is live-tailable
     except KeyboardInterrupt:
         print("\n🛑 Stopping.")
+        if logf:
+            logf.close()
         sys.exit(0)
 
 if __name__ == "__main__":

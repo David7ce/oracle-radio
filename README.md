@@ -6,17 +6,29 @@ Minimal prototype: zap between live internet radio streams, play snippets, trans
 
 ```powershell
 pip install -r requirements.txt   # FFmpeg must also be in PATH (see Requirements)
-python oracle.py                        # all stations
-python oracle.py --lang fr,en           # only French + English
-python oracle.py --category news,talk   # only news + talk
-python oracle.py --lang fr --list       # list matches, don't play
+python oracle.py                        # interactive language picker
+python oracle.py --lang fr              # French only (one language per session)
+python oracle.py --lang es --category news   # Spanish, tag filter "news"
+python oracle.py --lang ja --list       # list stations, don't play
+python oracle.py --lang de --log run.log     # append transcripts to run.log live
+python oracle.py --refresh              # rebuild local station list from the API
 ```
 
 Stop with Ctrl+C.
 
-Stations carry a `lang` (ISO 639-1) and `category` (news, music, talk,
-classical, ambient). Filter with `--lang` / `--category` (comma-separated,
-both default to all). Edit `STATIONS` in `stations.py` to add your own.
+**One language per session** (rule 1): pick with `--lang` or the interactive
+picker. Available: `en fr de ja es ru zh pt it ar`. The chosen language is also
+passed to Whisper for faster, more accurate transcripts.
+
+**Stations** live in a local `stations.json` (~50 per language, ~500 total),
+built from the open [radio-browser.org](https://www.radio-browser.info) API
+(MP3/AAC, popularity-ranked, dead ones hidden). Runs offline from the cache;
+`--refresh` rebuilds it. A shuffled deck plays every station once before any
+repeat. `--category` is an optional tag substring filter (`news`, `jazz`, …).
+
+**Transcript log** (`--log FILE`): each subtitle is appended live
+(`[HH:MM:SS] [Station] text`), flushed per line so you can `tail -f` it — both
+a live feed and a full file at the end.
 
 ## Requirements
 
@@ -34,9 +46,9 @@ both default to all). Edit `STATIONS` in `stations.py` to add your own.
 
 ## Radio streams
 
-20 public live stations in 5 languages (en, fr, de, ja, es) across news,
-music, talk, classical, and ambient. Edit `STATIONS` in `stations.py` to
-customize. Some URLs may rot over time — swap them as needed.
+Fetched live from radio-browser.org: ~25 top stations for the chosen language
+(10 supported: en, fr, de, ja, es, ru, zh, pt, it, ar). No network? Falls back
+to the small hardcoded `SEED` in `stations.py`.
 
 ## Architecture
 
