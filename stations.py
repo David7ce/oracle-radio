@@ -48,6 +48,30 @@ SEED = [
 ]
 
 
+# Minimal controlled vocabulary so `--category news,talk` is clean from the CLI.
+# radio-browser's freeform tags get squashed to exactly one of these.
+CATEGORIES = ["news", "talk", "sports", "classical", "culture", "religion", "music"]
+
+# Checked in order; first keyword hit wins. Default is "music" (most radio is).
+_CANON_RULES = [
+    ("news",      ("news", "noticias", "info", "actualidad", "jornal", "nachrichten")),
+    ("sports",    ("sport", "deporte", "futbol", "football")),
+    ("talk",      ("talk", "spoken", "hablado", "podcast", "discussion", "reden")),
+    ("classical", ("classical", "clásica", "classica", "klassik", "opera", "sinfon")),
+    ("religion",  ("religio", "christian", "gospel", "quran", "coran", "islam", "cristian", "catholic")),
+    ("culture",   ("culture", "cultural", "kultur")),
+]
+
+
+def _canon(tags):
+    """Freeform radio-browser tags -> one CATEGORIES value. Music is the default."""
+    t = (tags or "").lower()
+    for cat, keys in _CANON_RULES:
+        if any(k in t for k in keys):
+            return cat
+    return "music"
+
+
 def languages():
     return list(LANGS)
 
@@ -84,29 +108,34 @@ def fetch(lang, limit=25):
         if stream in seen:
             continue
         seen.add(stream)
-        out.append({"name": name, "url": stream, "lang": lang, "tags": tags,
-                    "category": tags.split(",")[0] if tags else "radio"})
+        out.append({"name": name, "url": stream, "lang": lang, "category": _canon(tags)})
         if len(out) >= limit:
             break
     return out or [s for s in SEED if s["lang"] == lang] or list(SEED)
 
 
-CACHE_VERSION = 2
+CACHE_VERSION = 3
 STALE_DAYS = 30
 
 
 def _slim(stations):
-    """Cache form: drop redundant `lang` (dict key) and `category` (derived from tags)."""
-    return [{"name": s["name"], "url": s["url"], "tags": s.get("tags", "")} for s in stations]
+    """Cache form: drop redundant `lang` (it's the dict key)."""
+    return [{"name": s["name"], "url": s["url"], "category": s["category"]} for s in stations]
 
 
 def _match(station, category):
-    """True if any comma-separated term in `category` is a substring of the
-    station's tags (case-insensitive). Empty category matches everything."""
+    """True if the station's canonical category is one of the comma-separated
+    terms in `category`. Empty category matches everything."""
     if not category:
         return True
-    hay = (station.get("tags") or station.get("category") or "").lower()
-    return any(t.strip() and t.strip() in hay for t in category.lower().split(","))
+    want = {t.strip().lower() for t in category.split(",") if t.strip()}
+    return station.get("category", "") in want
+
+
+def categories(lang):
+    """Canonical categories present for a language (with the cache built)."""
+    data, _ = _read()
+    return sorted({s["category"] for s in data.get(lang, [])}) or CATEGORIES
 
 
 def _write(data):
@@ -150,8 +179,7 @@ def load(lang, category=None):
         st = _slim(fetch(lang))
         data[lang] = st
         _write(data)
-    # Re-attach lang + a display category (first tag) that callers expect.
-    st = [{**s, "lang": lang, "category": (s.get("tags") or "").split(",")[0] or "radio"} for s in st]
+    st = [{**s, "lang": lang} for s in st]   # re-attach lang for callers
     return [s for s in st if _match(s, category)]
 
 
@@ -160,8 +188,12 @@ if __name__ == "__main__":
     import sys
     if sys.platform == "win32":
         sys.stdout.reconfigure(encoding="utf-8")
+    # _canon must only ever emit the controlled vocabulary.
+    assert _canon("news talk,spanish") == "news"
+    assert _canon("jazz,chillout") == "music"
+    assert _canon("") == "music"
     counts = refresh(per_lang=50)
     for code, n in counts.items():
         assert n, f"no stations for {code}"
-        print(f"{code}: {n:2d} stations")
+        print(f"{code}: {n:2d} stations, cats: {', '.join(categories(code))}")
     print(f"cached -> {CACHE}")

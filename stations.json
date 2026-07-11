@@ -1,2525 +1,2525 @@
 {
- "version": 2,
+ "version": 3,
  "generated": "2026-07-11",
  "stations": {
   "ar": [
    {
     "name": "إذاعة القرآن الكريم من القاهرة",
     "url": "http://n12.radiojar.com/8s5u5tpdtwzuv?listening-from-radio-garden=1620219571863&rj-tok=AAABeTyl2zYARSWbLVnrEOlqGw&rj-ttl=5",
-    "tags": "اسلامي,دين"
+    "category": "music"
    },
    {
     "name": "Mosaique FM",
     "url": "http://radio.mosaiquefm.net:8000/mosalive",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Sana’a Radio راديو صنعاء",
     "url": "https://dc5.serverse.com/proxy/pbmhbvxs/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Nogoum FM",
     "url": "https://stream-159.zeno.fm/qb1zvsykm98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxYjF6dnN5a205OHV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ild2WTItbVhJU2Z5VlBEOHc3a2J1X0EiLCJpYXQiOjE3NzA5ODcyOTUsImV4cCI6MTc3MDk4NzM1NX0.ob8jdjoAgAzIcrxMk5b127wgaxpnJHEASSChnE5v5ro",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "إذاعة القرآن الكريم (القاهرة)",
     "url": "https://stream.radiojar.com/8s5u5tpdtwzuv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Saudi Quran",
     "url": "http://stream.radiojar.com/0tpy1h0kxtzuv",
-    "tags": "life guide"
+    "category": "music"
    },
    {
     "name": "Arab Mix Drama",
     "url": "https://stream.zeno.fm/egynebf171zuv.acc",
-    "tags": "radio drama,radiodrama"
+    "category": "music"
    },
    {
     "name": "راديو مكان  - Kan Israel Makan",
     "url": "http://kanliveicy.media.kan.org.il/icy/makan_mp3",
-    "tags": "ilstations"
+    "category": "music"
    },
    {
     "name": "إذاعة محمود خليل الحصري",
     "url": "https://qurango.net/radio/mahmoud_khalil_alhussary_warsh",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Damascus إذاعة دمشق",
     "url": "https://radiodamascus.ortas.live/RDimshq/RDimshqAudioLive/playlist.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "إذاعة مشاري العفاسي",
     "url": "https://qurango.net/radio/mishary_alafasi",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Sam FM",
     "url": "http://edge.mixlr.com/channel/kijwr",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "sham fm",
     "url": "http://66.248.205.220:8400/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Nasaem راديو نسائم",
     "url": "https://stream.zeno.fm/u1wbm3k7gxquv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "اذاعة الحادي والعشرين من سبتمبر",
     "url": "http://procyon.shoutca.st:8488/index",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio 9090 90.9",
     "url": "http://9090streaming.mobtada.com/9090FMEGYPT",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Aswat",
     "url": "http://broadcast.ice.infomaniak.ch/aswat-high.mp3?.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "إذاعة مصطفى إسماعيل",
     "url": "https://qurango.net/radio/mustafa_ismail",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Afaq FM  راديو آفاق",
     "url": "http://edge.mixlr.com/channel/rumps",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Noor Al-Eman",
     "url": "http://edge.mixlr.com/channel/boaht",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "صوت المقاومة",
     "url": "https://node-23.zeno.fm/b67qheuk54zuv",
-    "tags": "news؛talk"
+    "category": "news"
    },
    {
     "name": "فيروز",
     "url": "https://stream.zeno.fm/9vrahqqfuuhvv",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "KnOOz FM",
     "url": "http://streaming.knoozfm.net:8000/knoozfm",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Lana FM",
     "url": "http://node-24.zeno.fm/542gubz258quv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Quran Radio Station-Nablus",
     "url": "http://www.quran-radio.org:8002/",
-    "tags": "arabic,islamic,nablus,quran,القرآن الكريم"
+    "category": "religion"
    },
    {
     "name": "Abdulbasit Abdulsamad",
     "url": "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Orient",
     "url": "https://stream.rcs.revma.com/7hnrkawf4p8uv.mp3",
-    "tags": "arabic music,islam,news,paris,radio maghreb"
+    "category": "news"
    },
    {
     "name": "إذاعة ياسر الدوسري",
     "url": "https://qurango.net/radio/yasser_aldosari",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Syria TV - راديو تلفزيون سوريا",
     "url": "https://stream2.syria.fm/syriatv1live/syriatv_audio/icecast.audio",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "القران الكريم من القاهره1",
     "url": "http://n0e.radiojar.com/8s5u5tpdtwzuv?rj=&rj-tok=AAABg5BDP0EA2ElNLJYUJTsVcg&rj-ttl=5",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Huna Aden FM",
     "url": "https://c30.radioboss.fm:18267/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "---تراتيل قصيرة متميزة---",
     "url": "https://qurango.net/radio/tarateel",
-    "tags": "قران كريم"
+    "category": "music"
    },
    {
     "name": "رحبانيات",
     "url": "https://stream.zeno.fm/4g8xck48kfhvv",
-    "tags": "rhb"
+    "category": "music"
    },
    {
     "name": "Al Arabiya FM",
     "url": "https://fm.alarabiya.net/fm/myStream/playlist.m3u8",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Al araby",
     "url": "https://l3.itworkscdn.net/alarabyradiolive/alarabyradio_audio/icecast.audio",
-    "tags": "news,news talk,world news"
+    "category": "news"
    },
    {
     "name": "Rayan FM",
     "url": "https://broadcast.shoutstream.co.uk:8078/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Liban Libre",
     "url": "https://edge.mixlr.com/channel/qtqeb",
-    "tags": "arabic music,general,local programming,news,talk"
+    "category": "news"
    },
    {
     "name": "Algérie Chaine 1",
     "url": "https://radiochaine1.ice.infomaniak.ch/chaine1.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Sky Arabia News TV",
     "url": "http://stream.skynewsarabia.com/hls/sna_720.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Jawhara FM",
     "url": "http://streaming2.toutech.net:8000/jawharafm",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Elissa FM",
     "url": "https://stream.zeno.fm/v7n499m8ckhvv",
-    "tags": "romance"
+    "category": "music"
    },
    {
     "name": "صوت كل لبنان",
     "url": "https://audio.osina.cloud:9323/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Tayf Fm - راديو طيف - صدى السوريين",
     "url": "https://stream.zeno.fm/xbohf8qf5uauv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Jil FM",
     "url": "https://radiojeunesse.ice.infomaniak.ch/jeunesse.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "Saudi Quran1",
     "url": "http://n01.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABjrUiYUAAxwNU2wDdcOap9w",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "راديو الشيخ محمد المقرمي إذاعة (هندسة القلوب)",
     "url": "https://s1.reliastream.com/proxy/almaqrami?mp=/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Adeem",
     "url": "https://usa19.fastcast4u.com/adeem",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Hits 88.2 Cairo",
     "url": "https://radiohits882.radioca.st/;",
-    "tags": "arabic music"
+    "category": "music"
    },
    {
     "name": "Voice of Lebanon (Sawtlebnan) Radio",
     "url": "https://l3.itworkscdn.net/itwaudio/9054/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Al Karma FM",
     "url": "https://broadcast.shoutstream.co.uk/stream/8112",
-    "tags": ""
+    "category": "music"
    }
   ],
   "de": [
    {
     "name": "MANGORADIO",
     "url": "https://mangoradio.stream.laut.fm/mangoradio",
-    "tags": "music,variety"
+    "category": "music"
    },
    {
     "name": "Deutschlandfunk | DLF | MP3 128k",
     "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web",
-    "tags": "culture,news,public service,information"
+    "category": "news"
    },
    {
     "name": "SWR3",
     "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
-    "tags": "news,pop,rock"
+    "category": "news"
    },
    {
     "name": "1LIVE",
     "url": "http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
-    "tags": "ard,public radio,rock,top 40,wdr"
+    "category": "music"
    },
    {
     "name": "WDR 5",
     "url": "http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
-    "tags": "information,news,news talk,political talk,talk"
+    "category": "news"
    },
    {
     "name": "WDR4",
     "url": "https://wdr-wdr4-live.icecastssl.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3",
-    "tags": "oldies"
+    "category": "music"
    },
    {
     "name": "Bayern 3",
     "url": "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "Rock Antenne",
     "url": "http://mp3channels.webradio.rockantenne.de/rockantenne",
-    "tags": "rock"
+    "category": "music"
    },
    {
     "name": "Radio Eins",
     "url": "http://f121.rndfnk.com/ard/rbb/radioeins/live/mp3/128/stream.mp3?cid=01FC1WH12KJ93TCQPDSE2E5PZ9&sid=38HoeEhwMU9ZjQaArYLcNuLu9LN&token=VXH8C52tOJ6o_G5uLXexxjt84DXyHGfH0RABfQljedk&tvf=8PpblQ7uihhmMTIxLnJuZGZuay5jb20",
-    "tags": "adult contemporary,alternative,ard,information,pop,public radio,rbb,rock,talk"
+    "category": "news"
    },
    {
     "name": "Deutschlandfunk | DLF | AAC 192k",
     "url": "https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=web",
-    "tags": "culture,news,public service,information"
+    "category": "news"
    },
    {
     "name": "80s80s",
     "url": "http://streams.80s80s.de/web/mp3-192/streams.80s80s.de/",
-    "tags": "80s"
+    "category": "music"
    },
    {
     "name": "Rock Antenne - Heavy Metal",
     "url": "http://mp3channels.webradio.rockantenne.de/heavy-metal",
-    "tags": "heavy metal,metal"
+    "category": "music"
    },
    {
     "name": "Sunshine Live",
     "url": "http://stream.sunshine-live.de/live/mp3-192/stream.sunshine-live.de/",
-    "tags": "dance,trance"
+    "category": "music"
    },
    {
     "name": "- DJ & CLUB CHARTS ---> Club Classics, Festival-Hits, Remixes, Single Charts, Mashups, DJ Sets, Club Edits, Dancefloor, Underground, Nightlife, Party Anthems, Ibiza, Miami, Clubbing, Festival, Remix, Mashup, DJ, EDM,  RAVE, Dance, Urban, Latin, Beachclub, Lounge",
     "url": "https://breakz-2012-high.rautemusik.fm/?ref=rb-djclubcharts",
-    "tags": "#bewirbdich!,#mashup,beach,best music,brandnew,charts,chillout+lounge,club,clubbing,community radio,dance smashes,dj,dj remix,dj sets,edm,edm radioshows,hard techno,hiphop,hits,hot ac,houseparty,ibiza,ibiza classics,ibiza club,lounge,mashup,minimal techno,non-stop music,party,partycharts,promodj,radio,rave,remixed,singlecharts,sunset,tech house,techno,top 100,top 40,top charts,top hits,underground,urban"
+    "category": "music"
    },
    {
     "name": "ROCKANTENNE Alternative (mp3)",
     "url": "https://stream.rockantenne.de/alternative/stream/mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "90s90s Hits",
     "url": "http://streams.90s90s.de/pop/mp3-192/streams.90s90s.de/",
-    "tags": "90s,hits,pop"
+    "category": "music"
    },
    {
     "name": "Antenne Bayern",
     "url": "http://mp3channels.webradio.antenne.de/antenne",
-    "tags": "top 40"
+    "category": "music"
    },
    {
     "name": "WDR 2 Rheinland",
     "url": "http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3",
-    "tags": "music,news,talk"
+    "category": "news"
    },
    {
     "name": "Bayern 1 Oberbayern",
     "url": "https://dispatcher.rndfnk.com/br/br1/obb/mp3/mid",
-    "tags": "oldies"
+    "category": "music"
    },
    {
     "name": "BR24",
     "url": "https://dispatcher.rndfnk.com/br/br24/live/mp3/mid",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "DAMAR TURK FM",
     "url": "https://live.radyositesihazir.com:10997/",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "NDR 1 Niedersachsen",
     "url": "https://icecast.ndr.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3?1728424471708&aggregator=web",
-    "tags": "music,oldies,rock"
+    "category": "music"
    },
    {
     "name": "Bayern 2",
     "url": "https://dispatcher.rndfnk.com/br/br2/live/mp3/mid",
-    "tags": "information"
+    "category": "news"
    },
    {
     "name": "# TOP 100 CLUB CHARTS - DANCE & DJ MIX RADIO - 24 HOURS NON-STOP MUSIC @ TikTok Hits, Ibiza House, Sunset Lounge, Melodic Music, EDM, Deep House, Dance Music, Techno & Hypertechno, Rave Charts, Top 40 Charts, Latin, Reggaeton Music, Moombahton, Urban Hits, HipHop, Party & Clubbing Radio, Trending Chartmusic, R&B, Urban, Mixtape - & LIVE DJ SET",
     "url": "https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts",
-    "tags": "#,#charts,#club,#djmix,#mashup,#radio,#top100,00s,90s,beachclub,charts,chill house,chillout,chillout+lounge,club,club dance,club dance electronic house trance,club house,clubbing,dance house club  electronic techhouse,deejay,deep house,deep music,dj,dj mixes,dj remix,dj sets,edm,electro,electro techno,electronic,funky house,future house,hardstyle/handsup/edm,hip hop,hip-hop,hiphop,house,hypertechno,ibiza,latin,latin music,latin pop,lounge music,mashup,melodic house,minimal,minimal techno,moombahton,pop,progressive house,r&b,r&b/urban,rap hiphop rnb,rave,reggaeton,remixed,remixes,singlecharts,soulful house,sundowner,sunset,tech house,techno,top 40,top100,vocal deep"
+    "category": "music"
    },
    {
     "name": "NDR Info (Niedersachsen)",
     "url": "http://icecast.ndr.de/ndr/ndrinfo/live/mp3/128/stream.mp3",
-    "tags": "cultural news,culture,information,kultur,local news,news,regional"
+    "category": "news"
    },
    {
     "name": "Inforadio",
     "url": "http://dispatcher.rndfnk.com/rbb/inforadio/live/mp3/mid",
-    "tags": "ard,information,news,public radio,rbb"
+    "category": "news"
    },
    {
     "name": "Hit Radio FFH",
     "url": "http://mp3.ffh.de/radioffh/hqlivestream.mp3",
-    "tags": "pop,top 40"
+    "category": "music"
    },
    {
     "name": "NDR 2",
     "url": "https://icecast.ndr.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "SRF 3",
     "url": "http://stream.srg-ssr.ch/m/drs3/mp3_128",
-    "tags": "pop,public radio,srg ssr"
+    "category": "music"
    },
    {
     "name": "Deutschlandfunk Kultur | DLF | MP3 128k",
     "url": "https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web",
-    "tags": "culture,news,public service,information"
+    "category": "news"
    },
    {
     "name": "Sunshine Live",
     "url": "http://sunsl.streamabc.net/sunsl-sslsimulcast-mp3-192-4434053?sABC=6557p1o3%230%236080533n48sp2nrq0o4389q6o67o3qps%23fgernz.fhafuvar-yvir.qr&aw_0_1st.playerid=stream.sunshine-live.de&amsparams=playerid:stream.sunshine-live.de;skey:1700250035",
-    "tags": "electronic,house,techno"
+    "category": "music"
    },
    {
     "name": "TranceBase.FM - AAC HD 256k",
     "url": "http://listen.trancebase.fm/tunein-aac-hd-pls",
-    "tags": "electronic,techno,trance"
+    "category": "music"
    },
    {
     "name": "NIUS",
     "url": "http://radio.nius.de/live?ref=radiobrowser",
-    "tags": "2000s,80s,90s,hits,news,news talk,news talk music,pop,pop music,talk,top hits,world news"
+    "category": "news"
    },
    {
     "name": "SWR4 BW [48 aac]",
     "url": "https://liveradio.swr.de/sw890cl/swr4bw/",
-    "tags": "classical music,folk music,instrumental music,international evergreens,schlager,schlageroldies"
+    "category": "classical"
    },
    {
     "name": "RADIO BOB! Classic Rock",
     "url": "http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/",
-    "tags": "rock"
+    "category": "music"
    },
    {
     "name": "IBIZA CHILLOUT LOUNGE - Ambient, Deep House, Balearic, Smooth Jazz, Acoustic, Chill House, Lo-Fi, Chillwave, Dream Pop, Electro, Tropical House, Sunset Chill, Café del Mar, Soft Electronica, Slow House, Ambient, Relax, Easy Listening, Beach Vibes, Summer",
     "url": "https://0nlineradio.radioho.st/lounge-ibiza-chillout-lounge?ref=rb26",
-    "tags": "ambient,balearic,balearic house,beach,club dance,dance,deep house,house,lounge,pool beach bar,relax,smooth,smooth jazz,smooth lounge"
+    "category": "music"
    },
    {
     "name": "104.6 RTL",
     "url": "http://stream.104.6rtl.com/rtl-live/mp3-192/radio-browser.info/",
-    "tags": "adult contempary,hits"
+    "category": "music"
    },
    {
     "name": "- NEUERSCHEINUNGEN - Radio Charts - DJ Charts - Club Charts - Top 100 - Top 40 Club - Pop, Hip-Hop, Dance, EDM, House, Techno, R&B, Trap, Reggaeton, Afrobeat, Indie-Pop, Tropical House, Future Bass, Electro Swing, Synthwave, Deep House, Progressive House, Vocal House, DJ Sets, Remix, Mashup, Dancefloor, Festival-Hits, Club-Hits, Nightlife, Underground.",
     "url": "https://breakz-high.rautemusik.fm/?ref=rb-neuerscheinungen",
-    "tags": "chillout,club,club dance,dj,dj sets,electro sets,electronic dance music,future bass,house,ibiza,mashup,non-stop music,pop,pop dance,pop music,promodj,radiocharts,remixes,soul,sunset,tech house,techhouse,top 100,top 40,top charts,top club,top hits,top100,top40"
+    "category": "music"
    },
    {
     "name": "Vintage Radio",
     "url": "https://vintageradio.ice.infomaniak.ch/vintageradio-high.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "NDR Info (Hamburg)",
     "url": "http://icecast.ndr.de/ndr/ndrinfo/hamburg/mp3/128/stream.mp3",
-    "tags": "culture,information,kultur,local news,news,regional"
+    "category": "news"
    },
    {
     "name": "Radio Bollerwagen",
     "url": "https://ffn-stream19.radiohost.de/radiobollerwagen_mp3-192?ref=radioplayer&listenerid=31363233323633323031-323030333a64653a343731363a3730313a623731343a346664383a313761363a39386165-3537373636-4d6f7a696c6c612f352e3020285831313b205562",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "kontrafunk",
     "url": "https://icecast.multhielemedia.de/listen/kontrafunk/radio.mp3",
-    "tags": "information,news,news talk,talk radio"
+    "category": "news"
    },
    {
     "name": "Deutschlandfunk Nova | DLF | AAC 192k",
     "url": "https://st03.sslstream.dlf.de/dlf/03/high/aac/stream.aac?aggregator=web",
-    "tags": "culture,news,public service,information"
+    "category": "news"
    },
    {
     "name": "Sunshine Live - Techno",
     "url": "http://stream.sunshine-live.de/techno/mp3-192/stream.sunshine-live.de/",
-    "tags": "dance,electronic,minimal,techno"
+    "category": "music"
    },
    {
     "name": "NDR 2 Hamburg",
     "url": "https://icecast.ndr.de/ndr/ndr2/hamburg/mp3/128/stream.mp3?1728423809880&aggregator=web",
-    "tags": "music,pop,rock"
+    "category": "music"
    },
    {
     "name": "Berliner Rundfunk 91.4",
     "url": "http://stream.berliner-rundfunk.de/brf/mp3-128/internetradio/",
-    "tags": "berlin,pop"
+    "category": "music"
    },
    {
     "name": "- 0 N - 70s on Radio",
     "url": "https://0n-70s.radionetz.de/0n-70s.mp3",
-    "tags": "70er,70s,oldies,pop"
+    "category": "music"
    },
    {
     "name": "WDR4",
     "url": "http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "HR3",
     "url": "http://dispatcher.rndfnk.com/hr/hr3/live/mp3/128/stream.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Antenne Bayern - Chillout",
     "url": "http://mp3channels.webradio.antenne.de/chillout",
-    "tags": "chillout"
+    "category": "music"
    }
   ],
   "en": [
    {
     "name": "Classic Vinyl HD",
     "url": "https://icecast.walmradio.com:8443/classic",
-    "tags": "1930,1940,1950,1960,beautiful music,big band,classic hits,crooners,easy,easy listening,hd,jazz,light orchestral,lounge,oldies,orchestral,otr,relaxation,strings,swing,unwind,walm"
+    "category": "music"
    },
    {
     "name": "Radio Paradise Main Mix (EU) 320k AAC",
     "url": "http://stream-uk1.radioparadise.com/aac-320",
-    "tags": "california,eclectic,free,internet,non-commercial,paradise,radio"
+    "category": "music"
    },
    {
     "name": "102.7 KIIS FM",
     "url": "https://stream.revma.ihrhls.com/zc185",
-    "tags": "pop,top 40"
+    "category": "music"
    },
    {
     "name": "BBC World Service",
     "url": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "101 SMOOTH JAZZ",
     "url": "http://jking.cdnstream1.com/b22139_128mp3",
-    "tags": "easy listening,jazz,smooth jazz"
+    "category": "music"
    },
    {
     "name": "Dance Wave!",
     "url": "https://dancewave.online/dance.mp3",
-    "tags": "club dance electronic house trance"
+    "category": "music"
    },
    {
     "name": "CNN",
     "url": "https://tunein.cdnstream1.com/2868_96.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "CAPITAL - The UK's No.1 Hit Music Station",
     "url": "https://media-ssl.musicradio.com/CapitalUK",
-    "tags": "capital,capital fm,contemporary hits radio,dab+,england,entertainment,europe,global radio,london,moi merino,music,pop music,radio,top hits"
+    "category": "music"
    },
    {
     "name": "Adroit Jazz Underground",
     "url": "https://icecast.walmradio.com:8443/jazz",
-    "tags": "avant-garde,bebop,big band,bop,combos,contemporary,contemporary jazz,cool,cool jazz,free jazz,fusion,hard bop,hd,mainstream,mainstream jazz,modern,modern big band,post-bop,straight-ahead,walm,west coast"
+    "category": "music"
    },
    {
     "name": "Heart 80s",
     "url": "https://media-ssl.musicradio.com/Heart80sMP3",
-    "tags": "80s,national,pop,public radio,variety"
+    "category": "music"
    },
    {
     "name": "The Big 80s Station",
     "url": "http://158.69.114.190:8065/;",
-    "tags": "80s"
+    "category": "music"
    },
    {
     "name": "Z100 - New York's #1 Hit Music Station WHTZ",
     "url": "https://stream.revma.ihrhls.com/zc1469",
-    "tags": "iheart,liberal,pop"
+    "category": "music"
    },
    {
     "name": "SomaFM Groove Salad (128k MP3)",
     "url": "https://ice5.somafm.com/groovesalad-128-mp3",
-    "tags": "ambient,chillout,downtempo,groove,lounge,sleep"
+    "category": "music"
    },
    {
     "name": ".977 80s",
     "url": "http://17573.live.streamtheworld.com/977_80_SC",
-    "tags": "80s"
+    "category": "music"
    },
    {
     "name": "Deep House Lounge",
     "url": "http://198.15.94.34:8006/stream",
-    "tags": "deep house,disco,electronica,funky,house,jazzy,lounge,philadelphia,techno"
+    "category": "music"
    },
    {
     "name": "181.FM - Old School HipHop/RnB",
     "url": "http://listen.181fm.com/181-oldschool_128k.mp3",
-    "tags": "hiphop,oldschool,rnb,waynesboro"
+    "category": "music"
    },
    {
     "name": "Christmas Vinyl HD",
     "url": "https://icecast.walmradio.com:8443/christmas",
-    "tags": "christian,christmas,easy listening,hd,holiday,otr,seasonal,vintage,vinyl,walm"
+    "category": "religion"
    },
    {
     "name": "NPR 24 Hour Program Stream",
     "url": "http://npr-ice.streamguys1.com/live.mp3",
-    "tags": "news,news talk,political talk,politics,public radio,talk"
+    "category": "news"
    },
    {
     "name": "WALM HD",
     "url": "https://icecast.walmradio.com:8443/walm",
-    "tags": "christian,christian music,contemporary christian,jesus"
+    "category": "religion"
    },
    {
     "name": "Classic FM UK",
     "url": "http://ice-the.musicradio.com/ClassicFMMP3",
-    "tags": "classical"
+    "category": "classical"
    },
    {
     "name": "Smooth Radio",
     "url": "http://media-the.musicradio.com/SmoothEastMids",
-    "tags": "easy listening,smooth,soft music"
+    "category": "music"
    },
    {
     "name": "Heart London 106.2 [MP3]",
     "url": "http://ice-sov.musicradio.com/HeartLondonMP3",
-    "tags": "commercial,hot adult contemporary,london"
+    "category": "music"
    },
    {
     "name": "CLASSIC HITS RADIO 70 80 DiscoFunk ModernSoul Boogie",
     "url": "https://radiopanther.radiolebowski.com/play",
-    "tags": "1970s,1980s,70's,70s,70s disco,80,80's,80s,classic hits"
+    "category": "music"
    },
    {
     "name": "Gold",
     "url": "https://media-ssl.musicradio.com/GoldMP3",
-    "tags": "classic hits,national,oldies,public radio,variety"
+    "category": "music"
    },
    {
     "name": "Jacaranda FM",
     "url": "https://edge.iono.fm/xice/jacarandafm_live_medium.aac",
-    "tags": "adult contemporary,pop,regional radio,talk"
+    "category": "talk"
    },
    {
     "name": "90s90s HipHop & Rap",
     "url": "http://streams.90s90s.de/hiphop/mp3-192/streams.90s90s.de/",
-    "tags": "hiphop,rap"
+    "category": "music"
    },
    {
     "name": "Ambient Sleeping Pill",
     "url": "http://radio.stereoscenic.com/asp-h",
-    "tags": "ambient,meditation,sleep"
+    "category": "music"
    },
    {
     "name": "SomaFM Secret Agent (128k MP3)",
     "url": "https://ice6.somafm.com/secretagent-128-mp3",
-    "tags": "ambient,downtempo,jazz,lounge,samba,sixties"
+    "category": "music"
    },
    {
     "name": "MSNBC",
     "url": "https://tunein.cdnstream1.com/3511_96.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Capital FM London",
     "url": "http://media-ice.musicradio.com/CapitalMP3",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "Heart Dance",
     "url": "https://media-ssl.musicradio.com/HeartDanceMP3",
-    "tags": "dance,national,pop,public radio,variety"
+    "category": "music"
    },
    {
     "name": ".977 Country",
     "url": "http://26343.live.streamtheworld.com/977_COUNTRY_SC",
-    "tags": "country"
+    "category": "music"
    },
    {
     "name": "BBC Radio 1",
     "url": "http://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/ak/bbc_radio_one.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "# RdMix Classic Rock 70s 80s 90s",
     "url": "https://cast1.torontocast.com:4610/stream",
-    "tags": "60s,60s and 70s.,70's,70er,70s,80's,80er,80s,90's,90er,90s,blues,blues rock,classic blues,classic hits,classic hits 60s 70a 80s,classic rock,classic rock  50's 60's 70's 80's 90's,classic rock music,classic rock oldies,classic rock oldies soul,classic rock; alternative rock indie,country,entretenimiento,fm,hard rock,high quality audio,hits,local radio,melodic hard rock,music,music 70s 80s 90s,musica,oldies,pop rock,public radio,radio,real classic rock,rhythm and blues,rock,soft rock"
+    "category": "music"
    },
    {
     "name": "#100 BEST IBIZA DEEP HOUSE",
     "url": "https://stream.zeno.fm/lwv6zqgtv1dtv",
-    "tags": "chill,chill house,chillout,chillout+lounge,club dance,club house,community radio,dance,deep,deep house,electronic,fm,high quality audio,hits,house,music,news,public radio,radio,soulful house"
+    "category": "news"
    },
    {
     "name": "Your Classical - Relax",
     "url": "http://relax.stream.publicradio.org/relax.mp3",
-    "tags": "classical,relax"
+    "category": "classical"
    },
    {
     "name": "- DJ & CLUB CHARTS ---> Club Classics, Festival-Hits, Remixes, Single Charts, Mashups, DJ Sets, Club Edits, Dancefloor, Underground, Nightlife, Party Anthems, Ibiza, Miami, Clubbing, Festival, Remix, Mashup, DJ, EDM,  RAVE, Dance, Urban, Latin, Beachclub, Lounge",
     "url": "https://breakz-2012-high.rautemusik.fm/?ref=rb-djclubcharts",
-    "tags": "#bewirbdich!,#mashup,beach,best music,brandnew,charts,chillout+lounge,club,clubbing,community radio,dance smashes,dj,dj remix,dj sets,edm,edm radioshows,hard techno,hiphop,hits,hot ac,houseparty,ibiza,ibiza classics,ibiza club,lounge,mashup,minimal techno,non-stop music,party,partycharts,promodj,radio,rave,remixed,singlecharts,sunset,tech house,techno,top 100,top 40,top charts,top hits,underground,urban"
+    "category": "music"
    },
    {
     "name": "BBC RADIO 1 - The biggest new pop and all-day vibes",
     "url": "http://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/cf/bbc_radio_one.m3u8",
-    "tags": "97.1 fm,99.7 fm,bbc,bbc radio 1,dab,england,entertainment,entretenimiento,estación,europa,europe,fm,inglaterra,juvenil,london,londres,moi merino,music,música,música en inglés,música pop,pop,pop en inglés,pop music,pop rock,radio,rock,rock music"
+    "category": "music"
    },
    {
     "name": "Heart 90s",
     "url": "https://media-ssl.musicradio.com/Heart90sMP3",
-    "tags": "90s,national,pop,public radio,variety"
+    "category": "music"
    },
    {
     "name": ".977 Hitz",
     "url": "http://18863.live.streamtheworld.com/977_HITS_SC",
-    "tags": "hits,top 40"
+    "category": "music"
    },
    {
     "name": "Frisky",
     "url": "http://stream2.friskyradio.com/frisky_mp3_hi",
-    "tags": "electronic,frisky,new york city,progressive"
+    "category": "music"
    },
    {
     "name": "# TOP 100 CLUB CHARTS - DANCE & DJ MIX RADIO - 24 HOURS NON-STOP MUSIC @ TikTok Hits, Ibiza House, Sunset Lounge, Melodic Music, EDM, Deep House, Dance Music, Techno & Hypertechno, Rave Charts, Top 40 Charts, Latin, Reggaeton Music, Moombahton, Urban Hits, HipHop, Party & Clubbing Radio, Trending Chartmusic, R&B, Urban, Mixtape - & LIVE DJ SET",
     "url": "https://breakz-2012-high.rautemusik.fm/?ref=radiobrowser-top100-clubcharts",
-    "tags": "#,#charts,#club,#djmix,#mashup,#radio,#top100,00s,90s,beachclub,charts,chill house,chillout,chillout+lounge,club,club dance,club dance electronic house trance,club house,clubbing,dance house club  electronic techhouse,deejay,deep house,deep music,dj,dj mixes,dj remix,dj sets,edm,electro,electro techno,electronic,funky house,future house,hardstyle/handsup/edm,hip hop,hip-hop,hiphop,house,hypertechno,ibiza,latin,latin music,latin pop,lounge music,mashup,melodic house,minimal,minimal techno,moombahton,pop,progressive house,r&b,r&b/urban,rap hiphop rnb,rave,reggaeton,remixed,remixes,singlecharts,soulful house,sundowner,sunset,tech house,techno,top 40,top100,vocal deep"
+    "category": "music"
    },
    {
     "name": "KFM 94.5",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFM.mp3",
-    "tags": "pop,rock"
+    "category": "music"
    },
    {
     "name": "Bassdrive",
     "url": "http://ice.bassdrive.net/stream",
-    "tags": "drum and bass"
+    "category": "music"
    },
    {
     "name": "1.FM - Deep House Radio",
     "url": "http://strm112.1.fm/deephouse_mobile_mp3",
-    "tags": "deep house,techno"
+    "category": "music"
    },
    {
     "name": "Times Radio",
     "url": "https://timesradio.wireless.radio/stream",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "50s 60s RETRO HITS",
     "url": "https://stream.zeno.fm/pxzwykxbluitv",
-    "tags": "50s,60s,classic hits,classic rock,community radio,fm,hits,music,news,oldies,pop,pop rock,public radio,radio,retro,retro music,rock,rocknroll,talk"
+    "category": "news"
    },
    {
     "name": "Infowars",
     "url": "http://stream-mp3.infowars.com/",
-    "tags": "conspiracies,conspiracy theories,information,news,survivalism,talk"
+    "category": "news"
    },
    {
     "name": "OFM 94 & 97 FM Bloemfontein",
     "url": "http://edge.iono.fm/xice/ofm_live_medium.aac",
-    "tags": "bloemfontein,commercial,local news,news,pop"
+    "category": "news"
    },
    {
     "name": "Smooth Chill",
     "url": "https://media-ssl.musicradio.com/ChillMP3",
-    "tags": "chillout,national,public radio,smooth,variety"
+    "category": "music"
    }
   ],
   "es": [
    {
     "name": "Cadena SER España",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
-    "tags": "cultural news,live,news,news talk,spanish,sports news"
+    "category": "news"
    },
    {
     "name": "Cadena 100",
     "url": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "LOS 40 Principales España",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
-    "tags": "music,pop,top 40"
+    "category": "music"
    },
    {
     "name": "esRadio",
     "url": "http://livestreaming.esradio.fm/stream64.mp3",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "COPE + Sevilla",
     "url": "http://wecast09-h-cloud.flumotion.com/copesedes/sevilla-mas.mp3",
-    "tags": "local news"
+    "category": "news"
    },
    {
     "name": "KISS FM",
     "url": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3",
-    "tags": "2000s,80's,80s,90's,90s,music,musica,música,pop music,spanish,spanish pop"
+    "category": "music"
    },
    {
     "name": "Cadena Dial",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
-    "tags": "música en español"
+    "category": "music"
    },
    {
     "name": "Convoy en vivo",
     "url": "https://live.convoynetwork.com/stream",
-    "tags": "classic rock,latin music,rock"
+    "category": "music"
    },
    {
     "name": "Radio Nacional de España - Radio 5 Todo noticias",
     "url": "https://d131.rndfnk.com/star/crtve/rne5/main/mp3/128/stream.mp3?aggregator=tunein&cid=01GEP4MW5CAHPYP1EXHVKWFJ8W&sid=2OeE42hivuba6dTGvjnMGjKByQe&token=cdczXcnimVx4AY4iamqYbTMdu3cK7oBxmS2UQN9cWc0&tvf=pdPcDBxuVxdkMTMxLnJuZGZuay5jb20",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "COPE Cartagena",
     "url": "http://wecast19-h-cloud.flumotion.com/copesedes/cartagena.mp3",
-    "tags": "culture,news,religion"
+    "category": "news"
    },
    {
     "name": "Los 40 Urban",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
-    "tags": "dance,music,pop,urban"
+    "category": "music"
    },
    {
     "name": "Rock FM",
     "url": "http://flucast31-h-cloud.flumotion.com/cope/rockfm-low.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "LOS40 Classic",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
-    "tags": "pop rock"
+    "category": "music"
    },
    {
     "name": "Los 40 Dance",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC",
-    "tags": "dance,dance music,edm,electro,electronic,house"
+    "category": "music"
    },
    {
     "name": "La 100 - 99.9 FM - Grupo Clarín - Buenos Aires, Argentina",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM999_56.mp3",
-    "tags": "99.9 fm,argentina,buenos aires,entretenimiento,español,estación,fm,grupo clarín,la 100,latinoamérica,magazines,moi merino,música,radio,suramérica"
+    "category": "music"
    },
    {
     "name": "RNE - R1 --> Madrid",
     "url": "https://d121.rndfnk.com/star/crtve/rne1/mad/mp3/128/stream.mp3?cid=01GEM7S23A9B744SKFN04XA893&sid=2HgEg5aD71G8EuEf67MKTba5AnL&token=n_qXJorii6EVsZ_IP-RSzQP8sRamUc8gqb1nDnqiNT8&tvf=HHgasgd8KBdkMTIxLnJuZGZuay5jb20",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Cope Granada",
     "url": "http://flucast13-h-cloud.flumotion.com/cope/net1.mp3",
-    "tags": "entretenimiento,local news,news,news talk"
+    "category": "news"
    },
    {
     "name": "MIX: 80's, 90's y Más",
     "url": "https://18443.live.streamtheworld.com:443/XHDFMFMAAC.aac",
-    "tags": "106.5 fm,2000s,2010s,70s,80s,80s 90s y más,90s,90s y más,acir,acir online,américa,cdmx,ciudad de méxico,clásicos,clásicos en inglés,entretenimiento,español,estación,grupo acir,iheart,iheart radio,latinoamérica,mexico city,mix,mix fm,music,méxico,música,música del recuerdo,música en inglés,música pop,norteamérica,oldies,pop,pop en inglés,pop music,radio,retro hits,retro music,valle de méxico,éxitos"
+    "category": "music"
    },
    {
     "name": "Radio Disney 94.3 - Buenos Aires, Argentina",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.aac",
-    "tags": "94.3 fm,américa,argentina,buenos aires,disney,entretenimiento,español,estación,familia,family,fm,juvenil,latinoamérica,moi merino,música,música en español e inglés,música pop,pop,pop en español e inglés,pop music,pop rock,radio,radio disney,suramérica,top 40,top charts,top hits"
+    "category": "music"
    },
    {
     "name": "Ibiza Global Radio",
     "url": "http://ibizaglobalradio.streaming-pro.com:8024/",
-    "tags": "dance,electronic,house"
+    "category": "music"
    },
    {
     "name": "SMOOTH JAZZ: Sax, piano, guitarra y voz: cool jazz",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACIR22_s01AAC.aac",
-    "tags": "acir,acir online,américa,cdmx,ciudad de méxico,cool jazz,entretenimiento,español,estación,grupo acir,guitar jazz,iheart,iheart radio,jazz,latinoamérica,mexico city,moi merino,music,méxico,música,norteamérica,online,online only,piano,piano jazz,radio,radio online,sax,saxophone,smooth jazz,valle de méxico"
+    "category": "music"
    },
    {
     "name": "Free FM Tokyo",
     "url": "https://rocafmadrid.radioca.st/",
-    "tags": "free fm,free japan music,musica,tokyo"
+    "category": "music"
    },
    {
     "name": "Los 40 Principales México",
     "url": "http://27063.live.streamtheworld.com/LOS40_MEXICO_SC",
-    "tags": "hits,latin pop,top 40"
+    "category": "music"
    },
    {
     "name": "Radio Marca Madrid",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL_SC",
-    "tags": "sports"
+    "category": "sports"
    },
    {
     "name": "Radio Marca Barcelona",
     "url": "http://radioweb.radiomarcabarcelona.com:9000/stream",
-    "tags": "sports news"
+    "category": "news"
    },
    {
     "name": "Caracol Radio (Bogotá) - 100.9 FM / 810 AM - HJGL / HJCY - PRISA Radio - Bogotá, Colombia",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac",
-    "tags": "100.9 fm,810 am,am,bogotá,caracol radio,colombia,combo,entretenimiento,español,estación,fm,hablada,latinoamérica,local talk,moi merino,news talk,political talk,prisa radio,radio,radio hablada,suramérica,talk,talk radio,talk show"
+    "category": "news"
    },
    {
     "name": "Café Romántico Radio (Monterrey) - Online - www.caferomanticoradio.com - Grupo Digital Radioland - Monterrey, Nuevo León",
     "url": "https://panel.retrolandigital.com/radio/8110/listen",
-    "tags": "80s en español,café romántico radio,clásicos,español,estación,internet,internet radio,internet station,latinoamérica,moi merino,monterrey,musica romantica,méxico,música en español,norteamérica,nuevo león,online,online only,pop clásico,radio,radio online,retro,romantic,romantic music,romantica,romántica,románticas"
+    "category": "music"
    },
    {
     "name": "Blu Radio, señal nacional (HJCK, 89.9 MHz FM, Bogotá / HJN42, 96.3 MHz, San Martín, Meta / HJH87, 103.1 MHz, Paipa, Boyacá / HJOM, 1090 KHz, Cartagena de Indias / HJM47 103.1 MHz, Algeciras, Huila / HJQ43, 94.1 MHz, Bugalagrande, Valle del Cauca)",
     "url": "http://27433.live.streamtheworld.com:3690/BLURADIO_SC",
-    "tags": "armenian,bogotá,caribbean music,live sports,neiva,news,news radio,pereira,sports news,sports talk,talk radio,tunja,villavicencio"
+    "category": "news"
    },
    {
     "name": "JESUS IS LORD Radio",
     "url": "https://s3.radio.co/s97f38db97/listen",
-    "tags": "christian,gospel"
+    "category": "religion"
    },
    {
     "name": "88.9 Noticias - 88.9 FM - XHM-FM - Grupo ACIR - Ciudad de México",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMFMAAC_SC.aac",
-    "tags": "88.9,88.9 fm,acir,balada en español,baladas en español,cdmx,ciudad de méxico,espacio deportivo,español,estación,fm,fundación acir,grupo acir,hablada,iheart,iheart radio,informacion,información,informativa,mex,mx,news,noticias,noticias cortas,noticias en español,noticias locales,noticias y comentarios,panorama informativo,radio,radio hablada,rock en español"
+    "category": "news"
    },
    {
     "name": "_80 EXITOS",
     "url": "https://80sexitos.stream.laut.fm/80sexitos",
-    "tags": "70s,80s,90s,dance,disco,musica romantica"
+    "category": "music"
    },
    {
     "name": "ALFA 91.3 (Ciudad de México) - 91.3 FM - XHFAJ-FM - Grupo Radio Centro - Ciudad de México",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFAJ_FMAAC.aac",
-    "tags": "91.3,91.3 fm,alfa,cdmx,ciudad de mexico,ciudad de méxico,entretenimiento,estación,fm,grupo radio centro,juvenil,mexico,music,méxico,música,música pop,pop,pop music,radio"
+    "category": "music"
    },
    {
     "name": "Rock FM",
     "url": "http://rockfm.cope.stream.flumotion.com/cope/rockfm/playlist.m3u8",
-    "tags": "m3u8,rock"
+    "category": "music"
    },
    {
     "name": "SABROSITA Ciudad de México - 590 AM - XEPH-AM - NRM Comunicaciones - Ciudad de México",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XEPHAMAAC.aac",
-    "tags": "590,590 am,am,ciudad de mexico,ciudad de méxico,ciudad mexico,estación,latin  salsa kumbia  merenge  reggaeton,mex,mexico,mexico city,music,musica tropical,mx,méxico,música,nrm comunicaciones,radio,sabrosita,salsa,salsas,tropical,tropical music,valle de méxico"
+    "category": "music"
    },
    {
     "name": "Pure Ibiza Radio",
     "url": "https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio",
-    "tags": "dance,electronic music,ibiza club"
+    "category": "music"
    },
    {
     "name": "Radiolé",
     "url": "http://23613.live.streamtheworld.com/RADIOLEAAC_SC",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "La Ke Buena Ciudad de México - 92.9 FM - XEQ-FM - Radiópolis - Ciudad de México",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KEBUENAAAC.aac",
-    "tags": "92.9,92.9 fm,banda,cdmx,ciudad de méxico,estación,fm,grupera,la ke buena,mex,mexico,musica regional,musica regional mexicana,mx,méxico,radio,radiópolis,regional mexican,regional mexicana"
+    "category": "music"
    },
    {
     "name": "W Radio Colombia, Bogotá (HJCZ 690 AM; HJLN 99.9 MHz FM) Caracol Estéreo / Caracol Radio",
     "url": "http://26653.live.streamtheworld.com/WRADIO_SC",
-    "tags": "news,news and talk,talk radio"
+    "category": "news"
    },
    {
     "name": "Cadena SER - Radio Valencia",
     "url": "http://27833.live.streamtheworld.com:3690/SER_VALENCIA_SC",
-    "tags": "local news,news,news talk,talk"
+    "category": "news"
    },
    {
     "name": "Onda Cero Malaga",
     "url": "https://atres-live.ondacero.es/live/delegaciones/oc/malaga/master.m3u8",
-    "tags": "local news,news,news talk,talk"
+    "category": "news"
    },
    {
     "name": "La Ke Buena San Andrés Tuxtla - 103.9 FM - XHDQ-FM - San Andrés Tuxtla, Veracruz",
     "url": "https://streaming.servicioswebmx.com/8146/stream",
-    "tags": "103.9 fm,cuatro media,estación,fm,grupera,grupero,la ke buena,latinoamérica,mexican music,moi merino,méxico,música mexicana,música popular mexicana,música regional,música regional mexicana,norteamérica,radio,radiópolis,regional,regional mexican,regional mexicana,regional music,regional radio,san andrés tuxtla,veracruz"
+    "category": "music"
    },
    {
     "name": "La Noventera",
     "url": "https://host.gometri.com/proxy/lanoventera/stream/",
-    "tags": "90s,classic rock,música del recuerdo,pop music,techno"
+    "category": "music"
    },
    {
     "name": "Loca FM Urban",
     "url": "http://locafm02.we4stream.com:8015/live",
-    "tags": "latin music,latin pop,latin urban,latino,latino urbano,musica latina,música urbana,pop latino,reggaeton,reggaetón,urban,urbana,urbano"
+    "category": "music"
    },
    {
     "name": "W Radio Ciudad de México - 96.9 FM / 900 AM - XEW-FM / XEW-AM - Radiópolis - Ciudad de México",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/W_RADIOAAC.aac",
-    "tags": "900,900 am,96.9,96.9 fm,am,cdmx,ciudad de mexico,ciudad de méxico,ciudad mexico,estación,fm,mex,mexico,mx,méxico,news,noticias,radio,radiópolis,valle de méxico,w radio"
+    "category": "news"
    },
    {
     "name": "Blue 100.7 FM",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC.aac",
-    "tags": "80s,90s,classic hits,entretenimiento"
+    "category": "music"
    },
    {
     "name": "Amor Ciudad de México - 95.3 FM - XHSH-FM - Grupo ACIR - Ciudad de México",
     "url": "https://27143.live.streamtheworld.com:443/XHSHFMAAC.aac",
-    "tags": "95.3,95.3 fm,acir,amor,amor sólo música romántica,balada,balada en español,baladas,baladas en español,cdmx,ciudad de méxico,estación,fm,grupo acir,iheart,iheart radio,la hora de luis miguel,luna de amor,mex,mx,méxico,música,radio,sólo música romántica"
+    "category": "music"
    },
    {
     "name": "Chocolate FM",
     "url": "http://streaming5.elitecomunicacion.es:8082/live.mp3",
-    "tags": "chr,dance,español,latin,latin music,latino,pop,pop latino,reggaeton,top 40,trap"
+    "category": "music"
    },
    {
     "name": "BioBio Chile",
     "url": "https://unlimited3-cl.dps.live/biobiosantiago/aac/icecast.audio",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Blu Radio Bogotá 89.9",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLURADIO.mp3",
-    "tags": "deportes,entretenimiento,entrevistas,information,noticias,noticias y comentarios,radio hablada,sports,talk"
+    "category": "news"
    },
    {
     "name": "Panda Show Radio - Online - El Panda Zambrano - Ciudad de México",
     "url": "http://65.21.202.84:8062/",
-    "tags": "banda,cdmx,ciudad de mexico,ciudad de méxico,ciudad mexico,el panda zambrano,estación,grupera,grupero,mexican music,mexico,mexico city,music,musica mexicana,musica regional,musica regional mexicana,musica tradicional mexicana,méxico,música,música popular mexicana,música regional,online,online only,panda show,panda zambrano,radio,radio online,regional,regional mexican,regional mexicana,regional music,regional radio,traditional mexican music,valle de méxico"
+    "category": "music"
    }
   ],
   "fr": [
    {
     "name": "RMC FR",
     "url": "https://audio.bfmtv.com/rmcradio_128.mp3",
-    "tags": "france,info,sport,talk"
+    "category": "news"
    },
    {
     "name": "Europe 1",
     "url": "https://stream.europe1.fr/europe1.aac",
-    "tags": "aac,news,talk"
+    "category": "news"
    },
    {
     "name": "FUN Radio",
     "url": "http://icecast.funradio.fr/fun-1-44-128",
-    "tags": "dance,electro,latino"
+    "category": "music"
    },
    {
     "name": "France Info",
     "url": "http://icecast.radiofrance.fr/franceinfo-hifi.aac",
-    "tags": "aac,information,public radio,radio france"
+    "category": "news"
    },
    {
     "name": "Nrj Hits",
     "url": "https://streaming.nrjaudio.fm/ou7xugf3s5gi?origine=playernrj&aw_0_req.userConsentV2=&aw_0_1st.station=NRJ-Hits",
-    "tags": "hits"
+    "category": "music"
    },
    {
     "name": "Skyrock",
     "url": "http://icecast.skyrock.net/s/natio_mp3_128k",
-    "tags": "rap"
+    "category": "music"
    },
    {
     "name": "RMC Info Talk Sport",
     "url": "https://audio.bfmtv.com/rmcradio_128.mp3?aw_0_1st.playerId=RMC_audio_web&aggregator=RMC_audio_web",
-    "tags": "sports news"
+    "category": "news"
    },
    {
     "name": "RFM POP-ROCK",
     "url": "https://stream.rfm.fr/rfm-wr10.aac",
-    "tags": "chansons françaises,pop,pop rock,rock"
+    "category": "music"
    },
    {
     "name": "Europe 2",
     "url": "http://europe2.lmn.fm/europe2.mp3",
-    "tags": "pop rock"
+    "category": "music"
    },
    {
     "name": "FIP",
     "url": "http://icecast.radiofrance.fr/fip-hifi.aac",
-    "tags": "aac,music,public radio,radio france"
+    "category": "music"
    },
    {
     "name": "France Culture",
     "url": "http://icecast.radiofrance.fr/franceculture-hifi.aac",
-    "tags": "aac,culture,public radio,radio france"
+    "category": "culture"
    },
    {
     "name": "France Inter",
     "url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
-    "tags": "aac,general,public radio,radio france"
+    "category": "music"
    },
    {
     "name": "RTL2",
     "url": "http://streamer-02.rtl.fr/rtl2-1-44-128",
-    "tags": "pop,rock"
+    "category": "music"
    },
    {
     "name": "Jazz Radio Blues",
     "url": "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
-    "tags": "blues,jazz"
+    "category": "music"
    },
    {
     "name": "Jazz Radio",
     "url": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
-    "tags": "jazz,soul"
+    "category": "music"
    },
    {
     "name": "EuroDance 90 radio",
     "url": "https://stream-eurodance90.fr/radio/8000/128.mp3?1627933323",
-    "tags": "dancefloor,electronic dance music,eurodance,pop dance,pop music"
+    "category": "music"
    },
    {
     "name": "RFI Afrique",
     "url": "http://live02.rfi.fr/rfiafrique-64.mp3",
-    "tags": "africa,news"
+    "category": "news"
    },
    {
     "name": "RTL 100% 80",
     "url": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/webradio/rtl100pc80/130/audio-64000/index.m3u8",
-    "tags": "80s,music,oldies"
+    "category": "music"
    },
    {
     "name": "Radio Nova",
     "url": "http://novazz.ice.infomaniak.ch/novazz-128.mp3",
-    "tags": "alternative,pop,world music"
+    "category": "music"
    },
    {
     "name": "100% Radio 80",
     "url": "http://100radio-80.ice.infomaniak.ch/100radio-80-128.mp3",
-    "tags": "80s"
+    "category": "music"
    },
    {
     "name": "France Inter",
     "url": "http://direct.franceinter.fr/live/franceinter-hifi.aac",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "DAMAR TURK FM",
     "url": "https://live.radyositesihazir.com:10997/",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Skyrock Klassics",
     "url": "https://icecast.skyrock.net/s/klassiks_aac_64k?tvr_name=radiofr&tvr_section1=64aac",
-    "tags": "hip-hop and rap oldies"
+    "category": "music"
    },
    {
     "name": "FM 80 FUNKY MUSIC",
     "url": "https://listen.radioking.com/radio/467555/stream/523739",
-    "tags": "80's,disco,funk,oldies,pop,soul"
+    "category": "music"
    },
    {
     "name": "OUI FM",
     "url": "https://ouifm.ice.infomaniak.ch/ouifm-high.mp3",
-    "tags": "rock"
+    "category": "music"
    },
    {
     "name": "NRJ Paris",
     "url": "https://streaming.nrjaudio.fm/ou5k6tirv93h",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Sud Radio",
     "url": "https://ice.creacast.com/sudradio",
-    "tags": "conservative,info,mp3,news,talk"
+    "category": "news"
    },
    {
     "name": "Europe 1",
     "url": "https://europe1.lmn.fm/europe1.mp3",
-    "tags": "génaraliste"
+    "category": "music"
    },
    {
     "name": "Chante France",
     "url": "http://stream.chantefrance.com/Chante_France",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Hits 1",
     "url": "https://radio7.pro-fhi.net/radio/9006/hits1hd",
-    "tags": "club dance,dance,dance top40,electro,electronic,electronic dance music,music non stop,non-commercial,non-stop,non-stop music,noncommercial,pop,pop dance,top 40,top 40 hits,top charts,top hits,top40"
+    "category": "music"
    },
    {
     "name": "RFI Monde",
     "url": "http://live02.rfi.fr/rfimonde-64.mp3",
-    "tags": "news,world music"
+    "category": "news"
    },
    {
     "name": "Rire et Chansons Sketches",
     "url": "https://streaming.nrjaudio.fm/ou8oqegk7oiu?aw_0_1st.station=Rire-Chansons-SKETCHES&origine=mytuner",
-    "tags": "comedy"
+    "category": "music"
    },
    {
     "name": "La Grosse Radio Reggae",
     "url": "http://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3",
-    "tags": "music,reggae"
+    "category": "music"
    },
    {
     "name": "Jazz Radio Classic Jazz",
     "url": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
-    "tags": "classical,jazz"
+    "category": "classical"
    },
    {
     "name": "Chante France 80's",
     "url": "http://stream1.chantefrance.com/cf-80",
-    "tags": "80s"
+    "category": "music"
    },
    {
     "name": "FIP Reggae",
     "url": "http://icecast.radiofrance.fr/fipreggae-hifi.aac",
-    "tags": "aac,public radio,radio france,reggae"
+    "category": "music"
    },
    {
     "name": "FIP Jazz",
     "url": "http://icecast.radiofrance.fr/fipjazz-hifi.aac",
-    "tags": "aac,jazz,public radio,radio france"
+    "category": "music"
    },
    {
     "name": "BFM Business",
     "url": "http://audio.bfmtv.com/bfmbusiness_128.mp3?aw_0_1st.playerId=BFMBusiness_audio_web&aggregator=BFMBusiness_audio_web",
-    "tags": "economic news"
+    "category": "news"
    },
    {
     "name": "FIP Rock",
     "url": "http://icecast.radiofrance.fr/fiprock-hifi.aac",
-    "tags": "aac,public radio,radio france,rock"
+    "category": "music"
    },
    {
     "name": "BFM radio",
     "url": "https://audio.bfmtv.com/bfmradio_128.mp3",
-    "tags": "information,news"
+    "category": "news"
    },
    {
     "name": "Made in 80",
     "url": "https://madein80.leswebradios.fr/",
-    "tags": "1980s hits,80's,80s,the best of 80's"
+    "category": "music"
    },
    {
     "name": "Radio Meuh",
     "url": "http://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3",
-    "tags": "electronic,funk,music"
+    "category": "music"
    },
    {
     "name": "Radio FG at work",
     "url": "http://stream.rcs.revma.com/2v1zz979n98uv",
-    "tags": "dance,edm,electro,house"
+    "category": "music"
    },
    {
     "name": "RTL France",
     "url": "https://live.m6radio.quortex.io/webpHJPXnXrN7B6J7Q8mcqmxP/grouprtl/national/long/audio-64000/index.m3u8",
-    "tags": "news,pop"
+    "category": "news"
    },
    {
     "name": "France Musique",
     "url": "http://direct.francemusique.fr/live/francemusique-midfi.mp3",
-    "tags": "classical,jazz,music,public radio,radio france"
+    "category": "classical"
    },
    {
     "name": "France Musique",
     "url": "http://icecast.radiofrance.fr/francemusique-hifi.aac",
-    "tags": "aac,musique,public radio,radio france"
+    "category": "music"
    },
    {
     "name": "Radio Plus Agadir FM 92.4",
     "url": "https://stream-158.zeno.fm/bqdbb6hd0neuv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "RTL2",
     "url": "http://streaming.radio.rtl2.fr/rtl2-1-44-128",
-    "tags": "pop,rock"
+    "category": "music"
    },
    {
     "name": "ABC Lounge Radio",
     "url": "https://eu1.fastcast4u.com/proxy/kpmxz?mp=/1",
-    "tags": "ambient,chillout,easy listening,lounge,smooth jazz"
+    "category": "music"
    },
    {
     "name": "RADIO NOVA",
     "url": "https://novazz.ice.infomaniak.ch/novazz-128.mp3",
-    "tags": "electro,hip hop,jazz,new wave,reggae,world music"
+    "category": "music"
    }
   ],
   "ja": [
    {
     "name": "Anime Para Ti",
     "url": "https://stream.zeno.fm/qpn8mkt8c4duv",
-    "tags": "anime,anime openings,jpop,music"
+    "category": "music"
    },
    {
     "name": "Japan Hits - asia DREAM radio",
     "url": "http://quincy.torontocast.com:2020/stream.mp3",
-    "tags": "j-pop,japanese,japanese idols,jpop"
+    "category": "music"
    },
    {
     "name": "Free FM Tokyo",
     "url": "https://rocafmadrid.radioca.st/",
-    "tags": "free fm,free japan music,musica,tokyo"
+    "category": "music"
    },
    {
     "name": "BOX : Japan City Pop - 日本のシティポップ",
     "url": "https://play.streamafrica.net/japancitypop",
-    "tags": "city pop,japanese"
+    "category": "music"
    },
    {
     "name": "Jazz Sakura (asia dream radio)",
     "url": "http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3",
-    "tags": "japanese,japanese music,jazz"
+    "category": "music"
    },
    {
     "name": "R/a/dio",
     "url": "https://relay0.r-a-d.io/main.mp3",
-    "tags": "anime,jpop"
+    "category": "music"
    },
    {
     "name": "NHKワールド・ラジオ日本",
     "url": "https://masterpl.hls.nhkworld.jp/hls/r1/live/master.m3u8",
-    "tags": "international"
+    "category": "music"
    },
    {
     "name": "FM世田谷",
     "url": "https://fmsetagaya834.out.airtime.pro/fmsetagaya834_a",
-    "tags": "83.4,full service,music"
+    "category": "music"
    },
    {
     "name": "FM Kahoku 78.7 (FMかほく, JOZZ5AM-FM, 78.7 MHz, Kahoku City, Ishikawa)",
     "url": "http://radio.kahoku.net:8000/;",
-    "tags": "enka,japan,japanese,jpop,kayokyoku,talk radio"
+    "category": "talk"
    },
    {
     "name": "AshiyaRadio〜アシヤ・ラヂヲ〜",
     "url": "https://s3.radio.co/sc8d895604/listen",
-    "tags": "bossa nova,jazz,piano jazz"
+    "category": "music"
    },
    {
     "name": "Gotanno FM 89.2",
     "url": "https://radio.gotanno.love/;",
-    "tags": "indie pop,jpop"
+    "category": "music"
    },
    {
     "name": "Shonan Beach FM 78.9",
     "url": "http://shonanbeachfm.out.airtime.pro:8000/shonanbeachfm_a",
-    "tags": "classic jazz,hawaiian music,pop,smooth jazz"
+    "category": "music"
    },
    {
     "name": "stereo anime",
     "url": "https://radio.stereoanime.com/listen/stereoanime/128",
-    "tags": "anime,anime endings,anime openings,anime radio,j-pop,j-rock,japanese anime soundtracks game jpop vgm ost,japonese anime soundtracks,video game music,video games,videogame music"
+    "category": "music"
    },
    {
     "name": "J-Pop Sakura (asia DREAM radio)",
     "url": "https://quincy.torontocast.com:2070/stream.mp3",
-    "tags": "j-pop,japanese,jpop,oldies"
+    "category": "music"
    },
    {
     "name": "Free FM Tokyo",
     "url": "https://rocafmadrid.radioca.st/stream",
-    "tags": "1980s,2000s,80's,80s rock,90's,rock"
+    "category": "music"
    },
    {
     "name": "J-Rock Powerplay(Asia DREAM Radio)",
     "url": "https://kathy.torontocast.com:3340/;?shoutcast",
-    "tags": "music,pop"
+    "category": "music"
    },
    {
     "name": "Real Love Music - Radio Future Funk",
     "url": "https://stream-152.zeno.fm/48533y95cnruv?zs=doyTUcjfTvCVtBOS3nlI8g",
-    "tags": "future funk"
+    "category": "music"
    },
    {
     "name": "Retro PC GAME MUSIC Streaming Radio",
     "url": "http://gyusyabu.ddo.jp:8000/",
-    "tags": "chiptune,retro games,soundtracks,video game"
+    "category": "music"
    },
    {
     "name": "OnlyHits Japan",
     "url": "https://j.onlyhit.us/play",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "REPLAY NEWS - 日本語 5分ごとのニュースラジオ",
     "url": "https://replaynewsja.ice.infomaniak.ch/replaynewsja-128.mp3",
-    "tags": "information,news"
+    "category": "news"
    },
    {
     "name": "RADIO CLUB DJ",
     "url": "http://4stream.pl:18272/stream",
-    "tags": "club,dance,dj remix"
+    "category": "music"
    },
    {
     "name": "Ottava",
     "url": "http://ottava2.out.airtime.pro:8000/ottava2_a",
-    "tags": "classical"
+    "category": "classical"
    },
    {
     "name": "J1 Gold (HTTP)",
     "url": "http://jenny.torontocast.com:8062/",
-    "tags": "jpop"
+    "category": "music"
    },
    {
     "name": "Yumi Co. Radio",
     "url": "https://yumicoradio.net/stream",
-    "tags": "anime groove,city pop,future funk,nu disco,synthwave,vaporwave"
+    "category": "music"
    },
    {
     "name": "調布FM",
     "url": "https://mtist.as.smartstream.ne.jp/30039/livestream/playlist.m3u8",
-    "tags": "83.8,調布"
+    "category": "music"
    },
    {
     "name": "AnimeNfo Radio",
     "url": "https://stream.zenolive.com/xwa8ckz7mzzuv",
-    "tags": "anime,anime radio"
+    "category": "music"
    },
    {
     "name": "Vocaloid Radio (320kbps)",
     "url": "https://vocaloid.radioca.st/stream",
-    "tags": "anime,vocaloid"
+    "category": "music"
    },
    {
     "name": "Voice of Korea",
     "url": "https://radio.intchoson.com/vok/index.m3u8",
-    "tags": "music,news"
+    "category": "news"
    },
    {
     "name": "Moon Mission Recordings",
     "url": "http://uk5.internet-radio.com:8306/",
-    "tags": "deep house,techno"
+    "category": "music"
    },
    {
     "name": "MDK Space Radio",
     "url": "https://radio.mdkband.com/stream.mp3",
-    "tags": "ambient,drone,electronic,experimental,experimental electronic music,glitch,idm,noise"
+    "category": "music"
    },
    {
     "name": "Wave Anime Radio",
     "url": "https://channel_2.waveani.fun/stream",
-    "tags": "animation,anime,j-pop,ost,trance,trance progressive,trance uplifting"
+    "category": "music"
    },
    {
     "name": "Culture Failure",
     "url": "http://culturefailure.com:8000/;",
-    "tags": "ambient,electronic,minimal,noise"
+    "category": "music"
    },
    {
     "name": "J-Pop Sakura",
     "url": "http://quincy.torontocast.com:2070/stream.mp3",
-    "tags": "j-pop,japanese,jpop,oldies"
+    "category": "music"
    },
    {
     "name": "Tokyo Star Radio",
     "url": "http://mtist.as.smartstream.ne.jp/30081/livestream/playlist.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "FMメイプル",
     "url": "https://mtist.as.smartstream.ne.jp/30015/livestream/playlist.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Anison动漫音乐台",
     "url": "http://pool.anison.fm:9000/AniSonFM(320)?",
-    "tags": "anime,jpop,russia,俄罗斯动漫广播电台"
+    "category": "music"
    },
    {
     "name": "Big B Radio - Jpop",
     "url": "https://antares.dribbcast.com/proxy/jpop?mp=/s",
-    "tags": "music,pop"
+    "category": "music"
    },
    {
     "name": "775ライブリーFM",
     "url": "https://mtist.as.smartstream.ne.jp/30026/livestream/playlist.m3u8",
-    "tags": "77.5,朝霞"
+    "category": "music"
    },
    {
     "name": "Yggdrasil Radio",
     "url": "http://radio.shirayuki.org:9200/",
-    "tags": "anime,jpop,jrock,kpop"
+    "category": "music"
    },
    {
     "name": "SOUND UP STATION NFRS",
     "url": "https://stream2.rcast.net/70945",
-    "tags": "indie,jpop"
+    "category": "music"
    },
    {
     "name": "Friends Forever 128kbps MP3",
     "url": "https://s5.radio.co/s6140c7241/listen",
-    "tags": "j-pop,j-rock,jpop,jrock,shibuya kei"
+    "category": "music"
    },
    {
     "name": "NFRS Radio",
     "url": "https://securestreams.autopo.st:2592/stream?t=1769818665235",
-    "tags": "country,dj sets,pop"
+    "category": "music"
    },
    {
     "name": "J-Club Powerplay HipHop(Asia DREAM Radio)",
     "url": "https://kathy.torontocast.com:3350/;?shoutcast",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "京都三条ラジオカフェ",
     "url": "https://mtist.as.smartstream.ne.jp/30082/livestream/playlist.m3u8",
-    "tags": "79.7,京都市"
+    "category": "music"
    },
    {
     "name": "ЯН-ФМ Anime",
     "url": "http://animklatu.stream.laut.fm/animklatu?t302=2026-01-15_01-17-49&uuid=a0537ef2-3c79-4122-a8bc-70c2eb06601c",
-    "tags": "anime"
+    "category": "music"
    },
    {
     "name": "neverland",
     "url": "https://stream-166.zeno.fm/oaqigxpfjzqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvYXFpZ3hwZmp6cXZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFnRWVwSWpIUXJXVElZSU1pLVlrenciLCJpYXQiOjE3NDgxMzU4OTUsImV4cCI6MTc0ODEzNTk1NX0.b4Llu6iAJk1NPa2U9OhIjm_3CZQyLuRJZWiNecQWBdY",
-    "tags": "anime,anime radio,jazz,lofi"
+    "category": "music"
    },
    {
     "name": "Neuro 21 Station",
     "url": "https://radio.twinskaraoke.com/listen/neuro_21/radio.mp3",
-    "tags": "alternative rock,anime,electronic,jpop,pop,pop rock,rock,vocaloid"
+    "category": "music"
    },
    {
     "name": "Radio Caprice - J-Pop",
     "url": "http://79.111.119.111:8000/jpop",
-    "tags": "j-pop,japanese,jpop,radcap,radio caprice"
+    "category": "music"
    },
    {
     "name": "Free FM Chill New York",
     "url": "https://freefmchill.radioca.st/",
-    "tags": "#80s,#90s,#chill,#freefm,#freefmchill,90's"
+    "category": "music"
    },
    {
     "name": "JPop Powerplay Kawaii",
     "url": "http://kathy.torontocast.com:3060/stream/1/?esPlayer&cb=221391.mp3",
-    "tags": "idol,idols,japanese,japanese idols,japanese music,jpop"
+    "category": "music"
    }
   ],
   "it": [
    {
     "name": "Radio 24 il sole 24 ore",
     "url": "http://shoutcast2.radio24.it:8000/;",
-    "tags": "news talk"
+    "category": "news"
    },
    {
     "name": "RTL 102.5",
     "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8",
-    "tags": "local,news,varied"
+    "category": "news"
    },
    {
     "name": "Radio Deejay",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/master_ma.m3u8",
-    "tags": "italian,news,pop,talk"
+    "category": "news"
    },
    {
     "name": "Rai Radio 1",
     "url": "http://icestreaming.rai.it/1.mp3",
-    "tags": "news,public radio,rai"
+    "category": "news"
    },
    {
     "name": "Radio Kiss Kiss",
     "url": "http://wma08.fluidstream.net:4610/",
-    "tags": "adult contemporary,pop"
+    "category": "music"
    },
    {
     "name": "Radio 105 Network",
     "url": "http://icecast.unitedradio.it/Radio105.mp3",
-    "tags": "hits,mediaset,pop,top 40"
+    "category": "music"
    },
    {
     "name": "Radio Ibiza",
     "url": "http://wma08.fluidstream.net:5010/;stream.aac",
-    "tags": "dance,electronica,napoli"
+    "category": "music"
    },
    {
     "name": "Radio Kiss Kiss Italia",
     "url": "http://wma06.fluidstream.net:3614/;listen.pls",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "Rai Radio 3",
     "url": "http://icestreaming.rai.it/3.mp3",
-    "tags": "classical,culture,public radio,rai"
+    "category": "classical"
    },
    {
     "name": "Virgin Radio Italia",
     "url": "http://icecast.unitedradio.it/Virgin.mp3",
-    "tags": "mediaset,pop rock"
+    "category": "music"
    },
    {
     "name": "RDS relax",
     "url": "http://icstream.rds.radio/rdsrelax",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "RMC Radio Monte Carlo",
     "url": "http://icecast.unitedradio.it/RMC.mp3",
-    "tags": "adult contemporary,mediaset,pop"
+    "category": "music"
    },
    {
     "name": "Radio 105",
     "url": "https://icecast.unitedradio.it/Radio105.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Rai Radio 2",
     "url": "http://icestreaming.rai.it/2.mp3",
-    "tags": "public radio,rai"
+    "category": "music"
    },
    {
     "name": "Deejay 80",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejay80/playlist.m3u8",
-    "tags": "1980s,80 hits,80's,80s,80s rock,hits 80s,the best of 80's"
+    "category": "music"
    },
    {
     "name": "R101 FM",
     "url": "http://icecast.unitedradio.it/r101",
-    "tags": "adult contemporary,mediaset,pop"
+    "category": "music"
    },
    {
     "name": "FUNKY RADIO - Only Funk Music (60's 70's)",
     "url": "https://funkyradio.streamingmedia.it/play.mp3",
-    "tags": "60s,70s,70s disco,80s,black,black music,disco,funk,funky,motown,music,oldies,p-funk,r&b,r'n'b,rare groove,rnb,soul,usa"
+    "category": "music"
    },
    {
     "name": "Virgin Radio Classic Rock",
     "url": "http://icy.unitedradio.it/VirginRockClassics.mp3",
-    "tags": "classic rock,mediaset"
+    "category": "music"
    },
    {
     "name": "Radio Sportiva",
     "url": "https://sportiva.inmystream.it/stream/sportiva",
-    "tags": "sport"
+    "category": "sports"
    },
    {
     "name": "Radio M2O",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiom2o/radiom2o/master_ma.m3u8",
-    "tags": "commercial,dance,electronic,house"
+    "category": "music"
    },
    {
     "name": "Radio Piterpan",
     "url": "http://wma01.fluidstream.net/piterpan",
-    "tags": "electronica,pop,top 40"
+    "category": "music"
    },
    {
     "name": "Radio 80",
     "url": "http://str01.fluidstream.net:7020/;stream.mp3",
-    "tags": "80s,noventa padovana"
+    "category": "music"
    },
    {
     "name": "CLASSIC HITS RADIO Italia",
     "url": "https://classichitsradio.streamingmedia.it/play",
-    "tags": "1970s,1980s,70's,70s,70s disco,80,80's,80s,classic hits"
+    "category": "music"
    },
    {
     "name": "Radio Kiss Kiss Napoli",
     "url": "http://wma08.fluidstream.net:3612/;listen.pls",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "Radio Birikina",
     "url": "http://wma01.fluidstream.net/birikina",
-    "tags": "classic hits,italian pop"
+    "category": "music"
    },
    {
     "name": "RTL 102.5 Disco",
     "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/Sz3kCA55PrRh/playlist_audio.m3u8",
-    "tags": "club,dance,electronic dance music,eurodance,house"
+    "category": "music"
    },
    {
     "name": "Radio Freccia",
     "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_audio.m3u8",
-    "tags": "classic rock,oldies,rock"
+    "category": "music"
    },
    {
     "name": "Radio Bruno",
     "url": "http://onair18.xdevel.com:8062/;",
-    "tags": "carpi,pop"
+    "category": "music"
    },
    {
     "name": "Radio Popolare",
     "url": "http://livex.radiopopolare.it/radiopop",
-    "tags": "independent,milano,news,non-commercial,popolare network"
+    "category": "news"
    },
    {
     "name": "Radio Capital",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiocapital/radiocapital/master_ma.m3u8",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "70 80 90",
     "url": "https://rblive.it:8170/radio.mp3",
-    "tags": "70's,70s,80's,80s,90's,90s"
+    "category": "music"
    },
    {
     "name": "Romantica Radio (RomanticaRadio Web)",
     "url": "https://vetrina.multi-radio.com/romanticaradio",
-    "tags": "60's,60s,64 kbps,64 kbps aac+,64kbps,70's,70s,80's,80s,90's,90s,aac+,canzoni,canzoni d'amore,canzoni romantiche,classics,italian,italian pop,love,love songs,musica italiana,musica romantica,romantic,romantic songs,webradio"
+    "category": "music"
    },
    {
     "name": "ItaliaRadio (MRG.fm)",
     "url": "http://listen.mrg.fm:8120/stream",
-    "tags": "classic italian pop,italian,italian music,italian pop,italo disco,italy,musica italiana"
+    "category": "music"
    },
    {
     "name": "Virgin Radio Italy",
     "url": "https://icy.unitedradio.it/Virgin.mp3",
-    "tags": "alternative rock,classic rock,indie rock,pop rock,punk rock,rock,soft rock"
+    "category": "music"
    },
    {
     "name": "Deejay Suona Italia",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/deejaysuonaitalia/playlist.m3u8",
-    "tags": "classic italian pop,italian,italian music,italian pop,italy,musica italiana"
+    "category": "music"
    },
    {
     "name": "Radio Cuore",
     "url": "https://stream10.xdevel.com/audio32s975552-1839/stream/icecast.audio",
-    "tags": "italian music,italian pop,musica italiana"
+    "category": "music"
    },
    {
     "name": "R101 Enjoy The Music",
     "url": "http://icy.unitedradio.it/101Legend.aac",
-    "tags": "00s,80s,90s,hits,mediaset"
+    "category": "music"
    },
    {
     "name": "Virgin Radio Rock '70",
     "url": "http://icy.unitedradio.it/VirginRock70.mp3",
-    "tags": "70s,classic rock,mediaset"
+    "category": "music"
    },
    {
     "name": "Radio Dancefloor 90s",
     "url": "http://streaming.radiodancefloor.it:443/",
-    "tags": "90s,dance,electronica,eurodance,milano,power pop"
+    "category": "music"
    },
    {
     "name": "Radio Capital W L'Italia",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/webradio/capitalwitalia/playlist.m3u8",
-    "tags": "classic italian pop,italian,italian music,italian oldies,italian pop,musica italiana"
+    "category": "music"
    },
    {
     "name": "_Radio Energy Classic (Italy)",
     "url": "https://gmusto3.radioca.st/stream",
-    "tags": "70s,80s,90s,classic hits,classic rock,disco,funk,oldies,pop,pop rock,rock,soul"
+    "category": "music"
    },
    {
     "name": "Radio Swiss Pop",
     "url": "http://stream.srg-ssr.ch/srgssr/rsp/aac/96",
-    "tags": "aac+,pop,srg ssr"
+    "category": "music"
    },
    {
     "name": "Tele Radio Stereo",
     "url": "http://trsw.inmystream.info:8068/;stream.mp3",
-    "tags": "roma,sport,talk"
+    "category": "sports"
    },
    {
     "name": "Radio Maria",
     "url": "http://dreamsiteradiocp.com:8092/;",
-    "tags": "catholic,christian,erba,talk"
+    "category": "talk"
    },
    {
     "name": "Radio Kiss Kiss Hits",
     "url": "http://ice08.fluidstream.net/kk_hits.aac",
-    "tags": "hits"
+    "category": "music"
    },
    {
     "name": "NEU RADIO",
     "url": "https://nr9.newradio.it/proxy/ebaruffa?mp=/stream",
-    "tags": "afrobeats,alternative,ambient,arts,beats,black,breakbeat,cinema,culture,dub,electronic,electropop,experimental,funk,house,indie pop,indie rock,jazz,local news,minimal,minimal wave,music,new wave,news,nu-jazz,post-punk,post-rock,reggae,soul,synth,synthwave,world,worldbeat"
+    "category": "news"
    },
    {
     "name": "One Dance",
     "url": "http://ice10.fluidstream.net/rn1_2.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Radio Studio Più - HQ",
     "url": "http://77.241.4.100:8020/;",
-    "tags": "dance"
+    "category": "music"
    },
    {
     "name": "Radio Swiss Classic",
     "url": "http://stream.srg-ssr.ch/m/rsc_it/mp3_128",
-    "tags": "classical,musica classica,srg ssr"
+    "category": "classical"
    },
    {
     "name": "70 80 Hits HQ",
     "url": "https://nr8.newradio.it:19574/stream",
-    "tags": "320 kbps,70,70 80 hits,70 80 hits hq,70 music,70-80,70-80 hits,80,80 music,high quality audio,hq"
+    "category": "music"
    }
   ],
   "pt": [
    {
     "name": "Rádio Antena 1 94.7 FM",
     "url": "https://antenaone.crossradio.com.br/stream/1;",
-    "tags": "adult,flashback"
+    "category": "music"
    },
    {
     "name": "Rádio Mix 106.3 FM",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC.aac",
-    "tags": "chr,pop-rock,youth"
+    "category": "music"
    },
    {
     "name": "Antena 1 São Paulo, SP (ZYD823 94,7 MHz FM) [aac]",
     "url": "http://antena1.newradio.it/stream?ext=.mp3",
-    "tags": "adult contemporary,jazz,pop,smooth jazz"
+    "category": "music"
    },
    {
     "name": "Rádio Saudade FM 99.7",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FMAAC.aac",
-    "tags": "adult,classic hits,flashback"
+    "category": "music"
    },
    {
     "name": "RFM",
     "url": "https://23603.live.streamtheworld.com/RFMAAC.aac",
-    "tags": "64kbps"
+    "category": "music"
    },
    {
     "name": "Antena 1 (Portugal)",
     "url": "http://streaming-live-app.rtp.pt/liveradio/antena180a/playlist.m3u8",
-    "tags": "portugal,portuguese,sports"
+    "category": "sports"
    },
    {
     "name": "JESUS IS LORD Radio",
     "url": "https://s3.radio.co/s97f38db97/listen",
-    "tags": "christian,gospel"
+    "category": "religion"
    },
    {
     "name": "M80 Rádio – 80s",
     "url": "https://stream-icy.bauermedia.pt/m8080.aac",
-    "tags": "80s,pop,romantic"
+    "category": "music"
    },
    {
     "name": "Antena 1 FM 94.7 São Paulo",
     "url": "http://antena1.newradio.it/stream",
-    "tags": "adult contemporary,lite"
+    "category": "music"
    },
    {
     "name": "JB FM",
     "url": "http://26663.live.streamtheworld.com:3690/JBFMAAC_SC",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Rádio Comercial",
     "url": "https://stream-hls.bauermedia.pt/comercial.aac/playlist.m3u8",
-    "tags": "contemporary,dance,pop,rock"
+    "category": "music"
    },
    {
     "name": "Mega Hits",
     "url": "http://22333.live.streamtheworld.com:3690/MEGA_HITS_SC",
-    "tags": "pop,top 40"
+    "category": "music"
    },
    {
     "name": "RFM Oceano Pacifico",
     "url": "https://23543.live.streamtheworld.com/OCEANPACIFICAAC.aac",
-    "tags": "pop,pop rock"
+    "category": "music"
    },
    {
     "name": "Rádio Observador",
     "url": "http://195.23.85.126:8455/stream",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "TSF Rádio Notícias",
     "url": "https://directo.tsf.pt/tsfdirecto.mp3",
-    "tags": "desporto,futebol,notícias,portugal,talk"
+    "category": "sports"
    },
    {
     "name": "Rádio Bossa Nova Brazil",
     "url": "http://54.38.43.201:8009/stream-128kmp3-BossaNovaBrazil",
-    "tags": "bossa nova,brazilian music"
+    "category": "music"
    },
    {
     "name": "Rádio Renascença",
     "url": "http://22653.live.streamtheworld.com/RADIO_RENASCENCA_SC",
-    "tags": "national news"
+    "category": "news"
    },
    {
     "name": "Rádio Moçambique Antena Nacional",
     "url": "https://node.stream-africa.com:8443/AntenaNacional",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "CBN São Paulo",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC.aac",
-    "tags": "news,sports"
+    "category": "news"
    },
    {
     "name": "Rádio Jovem Pan 100.9 FM",
     "url": "https://stream.zeno.fm/c45wbq2us3buv",
-    "tags": "entertainment,journalism,music,sport"
+    "category": "sports"
    },
    {
     "name": "Groove Wave Lounge",
     "url": "https://stm1.srvif.com:7576/;",
-    "tags": "ambient lounge,jazz lounge,lounge"
+    "category": "music"
    },
    {
     "name": "Máquina do Tempo (MPB Brasil)",
     "url": "http://servidor28.brlogic.com:8032/live",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Rádio Itatiaia 95.7 FM",
     "url": "https://8903.brasilstream.com.br/stream",
-    "tags": "news,soccer,sports"
+    "category": "news"
    },
    {
     "name": "M80 Rádio – Ballads",
     "url": "https://stream-icy.bauermedia.pt/m80ballads.aac",
-    "tags": "70s,80s,90s,romantic"
+    "category": "music"
    },
    {
     "name": "Bons Tempos FM",
     "url": "https://server02.ouvir.radio.br:8050/stream?1609720768800",
-    "tags": "nostalgia,nostalgic,rock,romantic"
+    "category": "music"
    },
    {
     "name": "Antena 1 (Portugal)",
     "url": "https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8",
-    "tags": "live sports,musica,talk & speech"
+    "category": "sports"
    },
    {
     "name": "M80 rádio",
     "url": "http://stream-icy.bauermedia.pt/m80.mp3",
-    "tags": "2000's,70's,80's,90's"
+    "category": "music"
    },
    {
     "name": "Antena 1  - Porto Alegre",
     "url": "https://antenaone.crossradio.com.br/stream/1",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "RFM",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFMAAC_SC",
-    "tags": "dance,pop,rock"
+    "category": "music"
    },
    {
     "name": "Rádio Gospel",
     "url": "http://148.72.158.239:8120/live",
-    "tags": "gospel"
+    "category": "religion"
    },
    {
     "name": "Rádio Globo 98.1 FM",
     "url": "https://24493.live.streamtheworld.com:443/RADIO_GLOBO_RJAAC.aac?dist=radioscombr",
-    "tags": "discussions,interviews,popular,sports"
+    "category": "sports"
    },
    {
     "name": "Smooth FM (AAC)",
     "url": "https://stream-icy.bauermedia.pt/smooth.aac",
-    "tags": "jazz,smooth jazz"
+    "category": "music"
    },
    {
     "name": "Rádio Amália",
     "url": "http://centova.radio.com.pt:9496/;",
-    "tags": "fado,folklore,local music"
+    "category": "music"
    },
    {
     "name": "TOP 80 - Todos Os Exitos De 80 A 2000",
     "url": "http://live.top80.fm:8086/",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Rádio Transamérica 100.1 FM",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_SPAAC.aac",
-    "tags": "adult,soccer"
+    "category": "music"
    },
    {
     "name": "105 FM - SP",
     "url": "http://www.appradio.app:8010//live",
-    "tags": "pagode,rap,samba"
+    "category": "music"
    },
    {
     "name": "Rádio Cidade - Rio de Janeiro - 102.9 FM - ZYD462",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOCIDADEAAC.aac",
-    "tags": "brazilian rock,classic rock,hot adult contemporary,soft rock"
+    "category": "music"
    },
    {
     "name": "MGT GOSPEL",
     "url": "https://cast.mgtradio.net/radio/8040/aac",
-    "tags": "brasil,cristã,gospel,jesus"
+    "category": "religion"
    },
    {
     "name": "CBN São Paulo",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC_SC",
-    "tags": "news,sports"
+    "category": "news"
    },
    {
     "name": "Antena 3 (Portugal)",
     "url": "https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8?DVR",
-    "tags": "alternative,music"
+    "category": "music"
    },
    {
     "name": "Máquina do Tempo (Internacional)",
     "url": "http://servidor28.brlogic.com:8212/live",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "BandNews FM",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDNEWSFM_SPAAC_SC",
-    "tags": "news,sports"
+    "category": "news"
    },
    {
     "name": "Antena 2 (Portugal)",
     "url": "https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8?DVR",
-    "tags": "classical"
+    "category": "classical"
    },
    {
     "name": "Jovem Pan BH",
     "url": "https://8062.brasilstream.com.br/mp3",
-    "tags": "entertainment,music,pop"
+    "category": "music"
    },
    {
     "name": "Mix Rio 102.1 Rio de Janeiro, RJ",
     "url": "http://26563.live.streamtheworld.com:3690/MIXRIOAAC_SC",
-    "tags": "brazilian pop,rio de janeiro,top 40"
+    "category": "music"
    },
    {
     "name": "Adoro Flashback",
     "url": "https://server01.ouvir.radio.br:8018/stream?1771866095421",
-    "tags": "adulta,flashback,românticas"
+    "category": "music"
    },
    {
     "name": "M80 Rádio – Indie",
     "url": "https://stream-icy.bauermedia.pt/m80indie.aac",
-    "tags": "indie,indie rock"
+    "category": "music"
    },
    {
     "name": "Rádio Batuta MPB - A webradio do Instituto Moreira Salles",
     "url": "http://radioims.out.airtime.pro:8000/radioims_a",
-    "tags": "brazilian music,mpb,samba"
+    "category": "music"
    },
    {
     "name": "101.9 Radio Educativa - Campinas",
     "url": "http://streaming.ima.sp.gov.br:8000/educativa.mp3",
-    "tags": "pop & samba - antigas"
+    "category": "music"
    },
    {
     "name": "LM Radio",
     "url": "https://ukwesta.streaming.broadcast.radio/lmradio",
-    "tags": "easy listening"
+    "category": "music"
    }
   ],
   "ru": [
    {
     "name": "Relax FM Chillout",
     "url": "https://pub0201.101.ru/stream/trust/mp3/128/24?",
-    "tags": "chill,chillout,chillout+lounge"
+    "category": "music"
    },
    {
     "name": "Вести ФМ (Vesti FM)",
     "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Europa Plus",
     "url": "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
-    "tags": "dance,house,pop"
+    "category": "music"
    },
    {
     "name": "ROCK FM",
     "url": "http://nashe1.hostingradio.ru/rock-128.mp3",
-    "tags": "classic rock,pop rock,rock"
+    "category": "music"
    },
    {
     "name": "Hit FM (UKraine) - 128kb/s",
     "url": "http://195.95.206.17/HitFM",
-    "tags": "dance,pop,rock"
+    "category": "music"
    },
    {
     "name": "РАДИО ВАНЯ",
     "url": "https://icecast-radiovanya.cdnvideo.ru/radiovanya",
-    "tags": "pop"
+    "category": "music"
    },
    {
     "name": "Ретро FM",
     "url": "http://retroserver.streamr.ru:8043/retro256.mp3",
-    "tags": "classic hits,moscow,music,pop,retro,russia,russian pop"
+    "category": "music"
    },
    {
     "name": "DFM RUSSIAN DANCE",
     "url": "https://dfm-dfmrusdance.hostingradio.ru/dfmrusdance96.aacp?0.9987259013359274",
-    "tags": "dance"
+    "category": "music"
    },
    {
     "name": "Радио «Комсомольская Правда» | КП Россия",
     "url": "http://kpradio.hostingradio.ru:8000/russia.radiokp128.mp3",
-    "tags": "moscow,music,news,russia,talk"
+    "category": "news"
    },
    {
     "name": "DFM Дискач 90-х",
     "url": "https://dfm-disc90.hostingradio.ru/disc9096.aacp",
-    "tags": "90-е,eurodance,nostalgia"
+    "category": "music"
    },
    {
     "name": "Дискотека СССР",
     "url": "http://pub0302.101.ru:8000/stream/pro/aac/64/144?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjUuMTguMjQ4Ljk4IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODIuMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzgyLjAiLCJ1aWRfY2hhbm5lbCI6IjE0NCIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDU5NjQ1MTZ9.Ln1wEJ8cHHzK_Ea6Zr8J8acdny0R9ShZ_KUKVf6TmQA",
-    "tags": "80s,90s,russian"
+    "category": "music"
    },
    {
     "name": "Radio Record - Russian Gold",
     "url": "https://radiorecord.hostingradio.ru/russiangold96.aacp",
-    "tags": "pop,russian"
+    "category": "music"
    },
    {
     "name": "Юмор FM",
     "url": "http://live.humorfm.by:8000/veseloeradio",
-    "tags": "comedy,top 40"
+    "category": "music"
    },
    {
     "name": "Радио Патриот",
     "url": "http://radio.mixto.ru:8001/patriot",
-    "tags": "news,politics,talk"
+    "category": "news"
    },
    {
     "name": "101.ru - Deep House",
     "url": "https://pub0202.101.ru:8000/stream/trust/mp3/128/173",
-    "tags": "deep house,electronic"
+    "category": "music"
    },
    {
     "name": "Вести FM",
     "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "Дорожное радио",
     "url": "http://dorognoe.hostingradio.ru:8000/radio",
-    "tags": "dorojnoe"
+    "category": "music"
    },
    {
     "name": "Радио Маяк (Radio Mayak)",
     "url": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
-    "tags": "music,news,talk"
+    "category": "news"
    },
    {
     "name": "Шансон Радио",
     "url": "http://chanson.hostingradio.ru:8041/chanson128.mp3",
-    "tags": "chanson"
+    "category": "music"
    },
    {
     "name": "Спутник",
     "url": "https://icecast-rian.cdnvideo.ru/voicerus",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "Спокойное радио",
     "url": "https://listen9.myradio24.com/6262",
-    "tags": "ambient,chillout,easy listening,jazz,lounge,moscow,relax,sounds of nature"
+    "category": "music"
    },
    {
     "name": "РадиусFM",
     "url": "https://stream2.datacenter.by/radiusfm_main",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Русское радио Минск 98.9 FM",
     "url": "https://stream.rusradio.by:8443/live128",
-    "tags": "belarus,minsk,music,pop,russkoe radio"
+    "category": "music"
    },
    {
     "name": "Радио Русские Песни",
     "url": "http://listen.rusongs.ru/ru-mp3-128",
-    "tags": "russian pop"
+    "category": "music"
    },
    {
     "name": "Душевное радио Минск 105.7 FM",
     "url": "https://stream2.datacenter.by/dushevnoe",
-    "tags": "belarus,different songs,minsk,music"
+    "category": "music"
    },
    {
     "name": "дорожное радио (Dorognoe Radio)",
     "url": "http://dorognoe.hostingradio.ru:8000/dorognoe",
-    "tags": "moscow"
+    "category": "music"
    },
    {
     "name": "Радио Книга",
     "url": "http://bookradio.hostingradio.ru:8069/fm",
-    "tags": "audiobooks,literature,talk,аудиокниги,литература"
+    "category": "talk"
    },
    {
     "name": "Комсомольская правда",
     "url": "https://kpradio.hostingradio.ru:8000/64",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "Comedy Radio new link",
     "url": "http://ic6.101.ru:8000/stream/air/aac/64/202",
-    "tags": "comedy,humor,pop,sketches"
+    "category": "music"
    },
    {
     "name": "комерсант (Kommersant FM) 93.6 Moscow",
     "url": "http://kommersant77.hostingradio.ru:8016/kommersant64.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Instrumental Jazz",
     "url": "https://jfm1.hostingradio.ru:14536/ijstream.mp3",
-    "tags": "instrumental,jazz"
+    "category": "music"
    },
    {
     "name": "Соловьёв life FM",
     "url": "https://solovievfm.hostingradio.ru/solovievfm128.aacp",
-    "tags": "news,talk"
+    "category": "news"
    },
    {
     "name": "Народное радио Минск 87.9 FM",
     "url": "https://live.novoeradio.by:444/live/narodnoeradio_aac128/icecast.audio",
-    "tags": "belarus,minsk,music,narodnoe radio,pop"
+    "category": "music"
    },
    {
     "name": "Русский Рок - Russian Rock",
     "url": "http://rock.volna.top/RusRock",
-    "tags": "amg,rock,russian"
+    "category": "music"
    },
    {
     "name": "РЕТРО ХИТ - RETRO HIT",
     "url": "http://retro.volna.top/Retro",
-    "tags": "adult,amg,gold,pop,retro,russian"
+    "category": "music"
    },
    {
     "name": "Радио Сева (Radio Seva Novgorodsev)",
     "url": "https://seva.ru/radio/stream",
-    "tags": "music,rock,talk,музыка,разговорное,рок"
+    "category": "talk"
    },
    {
     "name": "101,ru Russian Dance",
     "url": "https://pub0302.101.ru:8443/stream/trust/mp3/128/17?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjQ5LjM3LjE1MS42IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChYMTE7IExpbnV4IHg4Nl82NDsgcnY6ODguMCkgR2Vja29cLzIwMTAwMTAxIEZpcmVmb3hcLzg4LjAiLCJ1aWRfY2hhbm5lbCI6IjE3IiwidHlwZV9jaGFubmVsIjoiY2hhbm5lbCIsImV4cCI6MTYxODUwMTYyM30.vsWQ1s12RL1P3yuD4Eb6E2Og6YaLbXceO-cfhhhwl5s",
-    "tags": "#101,#music,#russiandance,101.ru"
+    "category": "music"
    },
    {
     "name": "Радио 7 на семи холмах",
     "url": "http://radio7server.streamr.ru:8040/radio7256.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Бизнес FM",
     "url": "https://bfm.hostingradio.ru:9075/fm",
-    "tags": "business,business news,business programs"
+    "category": "news"
    },
    {
     "name": "Ретро FM 70e",
     "url": "http://retro70.hostingradio.ru:8025/retro70-128.mp3",
-    "tags": "70s"
+    "category": "music"
    },
    {
     "name": "Radio record - Main Channel",
     "url": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
-    "tags": "music,news"
+    "category": "news"
    },
    {
     "name": "Авторадио - FM 90.3 - Москва",
     "url": "http://ic4.101.ru:8000/v3_1",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Breaking Bass Air",
     "url": "https://aircast.breaking-bass.ru:8443/air",
-    "tags": "atmospheric,darkstep,dnb,dram&bass,drumandbass,hardstep,intelligent,jazzstep,jumpup,jungle,liquid,neurofunk,sambass,techstep"
+    "category": "music"
    },
    {
     "name": "Наше Радио",
     "url": "http://nashe.streamr.ru/nashe-128.mp3",
-    "tags": "рок,этно"
+    "category": "music"
    },
    {
     "name": "TRANCE IS STAR RADIO",
     "url": "https://myradio24.org/tisradio",
-    "tags": "best music for you"
+    "category": "music"
    },
    {
     "name": "Echo ЭХО Online",
     "url": "https://i1.echofm.online:8443/stream",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "Legendy FM",
     "url": "http://live.legendy.by:8000/legendyfm",
-    "tags": "hits,top40"
+    "category": "music"
    },
    {
     "name": "Дядя Ваня на даче (18+)",
     "url": "https://ic1.radiosignal.one/vanya-mp3",
-    "tags": "música pop"
+    "category": "music"
    },
    {
     "name": "Коммерсантъ FM 93.6",
     "url": "https://kommersant77.hostingradio.ru:8085/kommersant128.mp3",
-    "tags": "economics,finance,information,news,talk"
+    "category": "news"
    },
    {
     "name": "Radio Record Deep",
     "url": "http://radiorecord.hostingradio.ru/deep96.aacp",
-    "tags": "deep house,house"
+    "category": "music"
    }
   ],
   "zh": [
    {
     "name": "怀集音乐之声",
     "url": "https://lhttp.qingting.fm/live/4804/64k.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "国际新闻",
     "url": "https://lhttp.qtfm.cn/live/20500172/64k.mp3",
-    "tags": "information,news"
+    "category": "news"
    },
    {
     "name": "CNR-1 中国之声",
     "url": "https://lhttp.qtfm.cn/live/15318317/64k.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "新闻联播",
     "url": "https://rfienchinois64k.ice.infomaniak.ch//rfienchinois-64.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "JESUS IS LORD Radio",
     "url": "https://s3.radio.co/s97f38db97/listen",
-    "tags": "christian,gospel"
+    "category": "religion"
    },
    {
     "name": "清晨音乐台",
     "url": "http://lhttp.qingting.fm/live/4915/64k.mp3",
-    "tags": "music,pop music"
+    "category": "music"
    },
    {
     "name": "两广之声音乐台",
     "url": "https://lhttp.qtfm.cn/live/20500149/64k.mp3",
-    "tags": "internet radio,oldies"
+    "category": "music"
    },
    {
     "name": "AsiaFM 亚洲粤语台",
     "url": "https://lhttp.qtfm.cn/live/15318569/64k.mp3",
-    "tags": "地方台,粤语,音乐"
+    "category": "music"
    },
    {
     "name": "中廣新聞網",
     "url": "https://n03.rcs.revma.com/78fm9wyy2tzuv",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "REPLAY NEWS - 中文 每5分钟播报一次新闻的电台",
     "url": "https://replaynewszh.ice.infomaniak.ch/replaynewszh-128.mp3",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "德云社相声合集",
     "url": "https://stream.zeno.fm/yqawwmweq8mtv",
-    "tags": "crosstalk,entertainment"
+    "category": "talk"
    },
    {
     "name": "Classical 古典音樂台 FM 97.7",
     "url": "http://59.120.88.155:8000/live.mp3",
-    "tags": "classical music"
+    "category": "classical"
    },
    {
     "name": "AsiaFM亚洲经典台",
     "url": "http://goldfm.cn:8000/goldfm",
-    "tags": "classic hits,hd,music,oldies"
+    "category": "music"
    },
    {
     "name": "80后音悦台",
     "url": "http://lhttp.qingting.fm/live/20207761/64k.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "臺北電台",
     "url": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8",
-    "tags": "news,public radio,talk"
+    "category": "news"
    },
    {
     "name": "105.1成都简单音乐广播",
     "url": "https://stream.zeno.fm/7brqs9rsbc9uv",
-    "tags": "105.1,105.1 fm"
+    "category": "music"
    },
    {
     "name": "500首华语经典",
     "url": "https://lhttp.qtfm.cn/live/5022308/64k.mp3",
-    "tags": "music,oldies"
+    "category": "music"
    },
    {
     "name": "AsiaFM高清音乐台",
     "url": "http://asiafm.hk:8000/asiahd",
-    "tags": "192kbps,hd,music"
+    "category": "music"
    },
    {
     "name": "BBN 中文",
     "url": "https://streams.radiomast.io/ce298b32-8776-4192-9900-092f44b63e7f",
-    "tags": "bible"
+    "category": "music"
    },
    {
     "name": "50首经典古典音乐",
     "url": "https://lhttp-hw.qtfm.cn/live/5022308/64k.mp3",
-    "tags": "classic,classical,classical music,instrumental"
+    "category": "classical"
    },
    {
     "name": "Chinese Classical Music (Mp3 stream)",
     "url": "https://radio.chinesemusicworld.com/chinesemusic.mp3",
-    "tags": "classical,instrumental,traditional"
+    "category": "classical"
    },
    {
     "name": "新西兰中文广播电台 FM90.6 Radio Chinese",
     "url": "https://s26.myradiostream.com:20274/listen.mp3",
-    "tags": "chinese,culture,information,lifestyle,music,new zealand"
+    "category": "news"
    },
    {
     "name": "Jia 883 Radio",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/883JIAAAC.aac",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "北京新闻广播",
     "url": "https://lhttp.qtfm.cn/live/339/64k.mp3",
-    "tags": "94.5,94.5 fm,am828,news"
+    "category": "news"
    },
    {
     "name": "LOVE 972",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FM_PREM.aac",
-    "tags": "melisten"
+    "category": "music"
    },
    {
     "name": "安徽小说评书广播",
     "url": "https://lhttp.qtfm.cn/live/1951/64k.mp3",
-    "tags": "storytelling"
+    "category": "music"
    },
    {
     "name": "广东股市广播",
     "url": "https://lhttp.qtfm.cn/live/4847/64k.mp3",
-    "tags": "economics"
+    "category": "music"
    },
    {
     "name": "中廣音樂網",
     "url": "https://n03.rcs.revma.com/ndk05tyy2tzuv",
-    "tags": "internet radio,music"
+    "category": "music"
    },
    {
     "name": "CityFM城市音乐台",
     "url": "https://lhttp.qtfm.cn/live/20500153/64k.mp3",
-    "tags": "internet radio,music"
+    "category": "music"
    },
    {
     "name": "九八新聞台",
     "url": "https://n17a-eu.rcs.revma.com/pntx1639ntzuv",
-    "tags": "news"
+    "category": "news"
    },
    {
     "name": "动听音乐台",
     "url": "https://lhttp-hw.qtfm.cn/live/5022107/64k.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "Love 972 Radio",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FMAAC.aac",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "KBS韩国国际广播电台",
     "url": "https://api.xmgspace.me/api/kbs-stream/",
-    "tags": "international"
+    "category": "music"
    },
    {
     "name": "AsiaFM亚洲经典台",
     "url": "https://lhttp.qingting.fm/live/5021912/64k.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "美国中文电台-旧金山",
     "url": "http://radiokest.serverroom.us:6670/;?type=http&nocache=3295",
-    "tags": "chinese,news,public radio"
+    "category": "news"
    },
    {
     "name": "A1中文电台",
     "url": "http://s2.voscast.com:9530/",
-    "tags": "chinese,news,talk"
+    "category": "news"
    },
    {
     "name": "YES 933 Radio",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/YES933AAC.aac",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "Gachi Station #1",
     "url": "https://stream.zeno.fm/y513614qvzzuv",
-    "tags": "chinese,gachibass,gachimuchi,gachiremix,jazz,meme music,music,pop music,rap,russian,russian hits,russian pop,russian rock,trap,ukrainian,гачи,диско,классическая музыка,лëгкая музыка,металл,поп-музыка,популярная музыка,россия,русская популярная музыка,современная музыка,электронная музыка"
+    "category": "music"
    },
    {
     "name": "YES 933",
     "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/YES933_PREM.aac",
-    "tags": "melisten"
+    "category": "music"
    },
    {
     "name": "星岛中文电台国语广播",
     "url": "http://nap.casthost.net:8759/;?icy=http",
-    "tags": "96.1,96.1 fm,information,music"
+    "category": "news"
    },
    {
     "name": "飛揚調頻FM89.5",
     "url": "https://n13.rcs.revma.com/e0tdah74hv8uv",
-    "tags": "music,oldies"
+    "category": "music"
    },
    {
     "name": "大自然白噪音",
     "url": "https://stream.zeno.fm/vg54x7r1exhvv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "一个个人私用的歌单",
     "url": "https://stream.zeno.fm/rzsc1h2izunuv",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "民谣·蓝调",
     "url": "http://stream3.hndt.com/now/XWfN89gh/playlist.m3u8",
-    "tags": "blues,folk,music"
+    "category": "music"
    },
    {
     "name": "故事广播-阿基米德故事会",
     "url": "https://lhttp.qtfm.cn/live/20500182/64k.mp3",
-    "tags": "storytelling"
+    "category": "music"
    },
    {
     "name": "心灵音乐馆",
     "url": "http://stream3.hndt.com/now/AFqvb0VX/playlist.m3u8",
-    "tags": "instrumental,nature,relax"
+    "category": "music"
    },
    {
     "name": "Shanghai FM 101 上海动感101",
     "url": "https://lhttp.qingting.fm/live/274/64k.mp3",
-    "tags": ""
+    "category": "music"
    },
    {
     "name": "AsiaFM 亚洲热歌台【2023.10.17】",
     "url": "http://hot.asiafm.net:8000/asiafm",
-    "tags": "hot"
+    "category": "music"
    },
    {
     "name": "TAIWAN LOUNGE RADIO",
     "url": "https://azuracast.conceptradio.fr/radio/8030/stream.mp3",
-    "tags": "music"
+    "category": "music"
    },
    {
     "name": "SPH 963 Radio",
     "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/HAO_963AAC.aac",
-    "tags": ""
+    "category": "music"
    }
   ]
  }

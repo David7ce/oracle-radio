@@ -15,7 +15,7 @@ from pathlib import Path
 from threading import Thread
 from queue import Queue, Empty
 
-from stations import load, refresh, languages, LANGS
+from stations import load, refresh, languages, categories, LANGS, CATEGORIES
 
 # Force UTF-8 output on Windows
 if sys.platform == "win32":
@@ -68,8 +68,9 @@ def require_tools(*tools):
 def parse_args():
     p = argparse.ArgumentParser(description="Oracle Radio — zap live radio streams (one language per session).")
     p.add_argument("--lang", choices=languages(), help=f"single language. available: {', '.join(languages())}")
-    p.add_argument("--category", help="optional tag filter (substring, e.g. news, jazz)")
+    p.add_argument("--category", help=f"comma-separated, from: {', '.join(CATEGORIES)}")
     p.add_argument("--list", action="store_true", help="list stations for the chosen language and exit")
+    p.add_argument("--categories", action="store_true", help="list categories + station counts for the language and exit")
     p.add_argument("--log", metavar="FILE", help="append transcripts to FILE as they arrive")
     p.add_argument("--refresh", action="store_true", help="rebuild local station cache from the API and exit")
     return p.parse_args()
@@ -98,6 +99,13 @@ def main():
         return
 
     lang = args.lang or pick_language()
+
+    if args.categories:
+        from collections import Counter
+        counts = Counter(s["category"] for s in load(lang))
+        for cat in sorted(counts):
+            print(f"{cat}: {counts[cat]}")
+        return
 
     print(f"Loading {LANGS[lang][1]} stations…")
     stations = load(lang, category=args.category)
@@ -138,15 +146,18 @@ def main():
     try:
         while True:
             station = next_station()
-            station_name, stream_url, lang = station["name"], station["url"], station["lang"]
+            station_name, stream_url = station["name"], station["url"]
             last_name = station_name
+            # Music/classical play songs that are often English regardless of the
+            # station's language, so let Whisper auto-detect instead of forcing lang.
+            wlang = None if station["category"] in ("music", "classical") else station["lang"]
 
             duration = random.randint(2, 5)
             print(f"● LIVE — {station_name} ({duration}s)")
 
             clip_file = str(tmpdir / f"clip-{int(time.time() * 1e6)}.wav")
             capture_and_play(stream_url, clip_file, duration)
-            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue, lang), daemon=True).start()
+            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue, wlang), daemon=True).start()
 
             print()
 

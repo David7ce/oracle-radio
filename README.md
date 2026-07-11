@@ -8,7 +8,8 @@ Minimal prototype: zap between live internet radio streams, play snippets, trans
 pip install -r requirements.txt   # FFmpeg must also be in PATH (see Requirements)
 python oracle.py                        # interactive language picker
 python oracle.py --lang fr              # French only (one language per session)
-python oracle.py --lang es --category news   # Spanish, tag filter "news"
+python oracle.py --lang es --category news,talk   # filter by category
+python oracle.py --lang es --categories      # list categories + station counts
 python oracle.py --lang ja --list       # list stations, don't play
 python oracle.py --lang de --log run.log     # append transcripts to run.log live
 python oracle.py --refresh              # rebuild local station list from the API
@@ -17,14 +18,17 @@ python oracle.py --refresh              # rebuild local station list from the AP
 Stop with Ctrl+C.
 
 **One language per session** (rule 1): pick with `--lang` or the interactive
-picker. Available: `en fr de ja es ru zh pt it ar`. The chosen language is also
-passed to Whisper for faster, more accurate transcripts.
+picker. Available: `en fr de ja es ru zh pt it ar`. The language is passed to
+Whisper for faster, accurate transcripts — except `music`/`classical`, where
+Whisper auto-detects (songs are often English regardless of station language).
 
 **Stations** live in a local `stations.json` (~50 per language, ~500 total),
 built from the open [radio-browser.org](https://www.radio-browser.info) API
 (MP3/AAC, popularity-ranked, dead ones hidden). Runs offline from the cache;
 `--refresh` rebuilds it. A shuffled deck plays every station once before any
-repeat. `--category` is an optional tag substring filter (`news`, `jazz`, …).
+repeat. Each station gets one canonical `--category` from a minimal set —
+`news, talk, sports, classical, culture, religion, music` — comma-separated to
+combine; `--categories` lists what a language actually has.
 
 **Transcript log** (`--log FILE`): each subtitle is appended live
 (`[HH:MM:SS] [Station] text`), flushed per line so you can `tail -f` it — both
