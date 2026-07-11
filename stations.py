@@ -43,7 +43,7 @@ SEED = [
     {"name": "FIP", "url": "https://stream.radiofrance.fr/fip/fip.m3u8", "lang": "fr", "category": "music"},
     {"name": "Deutschlandfunk", "url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3", "lang": "de", "category": "news"},
     {"name": "NHK World", "url": "https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index.m3u8", "lang": "ja", "category": "news"},
-    {"name": "Radio Nacional España", "url": "https://rtvelivestream.akamaized.net/rtvesec/rne_r1_main.m3u8", "lang": "es", "category": "news"},
+    {"name": "Cadena SER España", "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3", "lang": "es", "category": "news"},
     {"name": "Вести ФМ", "url": "http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps", "lang": "ru", "category": "news"},
 ]
 

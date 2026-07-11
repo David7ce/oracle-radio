@@ -121,6 +121,10 @@ def main():
 
     print("🎙️  ORACLE RADIO v0.1 alpha")
     print("━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    legend = f"{LANGS[lang][1]} · {len(stations)} stations"
+    if args.category:
+        legend += f" · {args.category}"
+    print(legend)
     print()
 
     tmpdir = Path(tempfile.gettempdir()) / "oracle-radio"
