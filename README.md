@@ -30,9 +30,11 @@ repeat. Each station gets one canonical `--category` from a minimal set —
 `news, talk, sports, classical, culture, religion, music` — comma-separated to
 combine; `--categories` lists what a language actually has.
 
-**Transcript log** (`--log FILE`): each subtitle is appended live
-(`[HH:MM:SS] [Station] text`), flushed per line so you can `tail -f` it — both
-a live feed and a full file at the end.
+**Transcript log**: with `--log FILE` each subtitle is appended live
+(`[HH:MM:SS] [Station] text`), flushed per line so you can `tail -f` it.
+Without `--log`, the whole session is saved on exit (Ctrl+C) to an auto-named
+`oracle-<lang>-<timestamp>.log`. `--model` picks the Whisper model
+(`tiny`…`large`, default `tiny`) — bigger is more accurate but slower.
 
 ## Requirements
 

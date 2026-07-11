@@ -37,14 +37,14 @@ def capture_and_play(stream_url, clip_file, duration):
     except Exception as e:
         print(f"   (capture failed: {e})")
 
-def transcribe_clip(clip_file, station_name, queue, lang=None):
+def transcribe_clip(clip_file, station_name, queue, lang=None, model="tiny"):
     """Transcribe clip in background thread."""
     try:
         # Passing the station's known language skips Whisper's auto-detect: faster + more accurate.
         lang_arg = ["--language", lang] if lang else []
         subprocess.run(
             ["whisper", clip_file, "--output_format", "txt",
-             "--output_dir", str(Path(clip_file).parent), "--model", "tiny", *lang_arg],
+             "--output_dir", str(Path(clip_file).parent), "--model", model, *lang_arg],
             capture_output=True, timeout=120
         )
 
@@ -71,7 +71,8 @@ def parse_args():
     p.add_argument("--category", help=f"comma-separated, from: {', '.join(CATEGORIES)}")
     p.add_argument("--list", action="store_true", help="list stations for the chosen language and exit")
     p.add_argument("--categories", action="store_true", help="list categories + station counts for the language and exit")
-    p.add_argument("--log", metavar="FILE", help="append transcripts to FILE as they arrive")
+    p.add_argument("--log", metavar="FILE", help="append transcripts to FILE live (else a session log is saved on exit)")
+    p.add_argument("--model", default="tiny", help="Whisper model: tiny, base, small, medium, large (default tiny)")
     p.add_argument("--refresh", action="store_true", help="rebuild local station cache from the API and exit")
     return p.parse_args()
 
@@ -132,6 +133,7 @@ def main():
 
     transcript_queue = Queue()
     logf = open(args.log, "a", encoding="utf-8") if args.log else None
+    session = []   # every transcript line, for the on-exit session log
 
     # Shuffled deck: every station plays once before any repeats (fixes clustering
     # you get from independent random.choice picks).
@@ -161,7 +163,7 @@ def main():
 
             clip_file = str(tmpdir / f"clip-{int(time.time() * 1e6)}.wav")
             capture_and_play(stream_url, clip_file, duration)
-            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue, wlang), daemon=True).start()
+            Thread(target=transcribe_clip, args=(clip_file, station_name, transcript_queue, wlang, args.model), daemon=True).start()
 
             print()
 
@@ -172,13 +174,20 @@ def main():
                 except Empty:
                     break
                 print(f'   ↳ [{st_name}] "{transcript}"\n')
+                line = f'[{time.strftime("%H:%M:%S")}] [{st_name}] {transcript}\n'
+                session.append(line)
                 if logf:
-                    logf.write(f'[{time.strftime("%H:%M:%S")}] [{st_name}] {transcript}\n')
+                    logf.write(line)
                     logf.flush()   # ponytail: flush per line so the log is live-tailable
     except KeyboardInterrupt:
         print("\n🛑 Stopping.")
         if logf:
             logf.close()
+        elif session:
+            # No live --log given: dump the whole session to an auto-named file.
+            path = Path.cwd() / f"oracle-{lang}-{time.strftime('%Y%m%d-%H%M%S')}.log"
+            path.write_text("".join(session), encoding="utf-8")
+            print(f"📝 Session log: {path} ({len(session)} lines)")
         sys.exit(0)
 
 if __name__ == "__main__":

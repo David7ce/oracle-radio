@@ -3,13 +3,10 @@
 Status snapshot: 2026-07-11. Stations are now pulled from the radio-browser.org
 API and cached locally; most early hardcoded-URL work is obsolete.
 
-## Next (usability)
-
-- [ ] Whisper model selectable (`--model`, default `tiny`).
-- [ ] Volume / clip-duration flags.
-
 ## Done
 
+- [x] Session transcript log: `--log FILE` live, else an auto-named
+      `oracle-<lang>-<ts>.log` saved on exit; `--model` selects Whisper model
 - [x] Normalize categories to a minimal vocabulary (news/talk/sports/classical/
       culture/religion/music); `--category` exact match, `--categories` lists
       counts; Whisper auto-detects for music/classical — `ac6911a`
